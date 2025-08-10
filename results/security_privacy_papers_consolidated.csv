@@ -1,0 +1,17 @@
+consolidated_id,title,year,venue,category,keywords,Latency,Reliability & QoS,Security & Privacy,Cost,Energy Consumption,Resource Management,Benchmarking & Evaluation
+21,Valve: Securing Function Workflows on Serverless Computing Platforms,2020,WWW Conference,"Security, Workflow","security, workflow, data flow control",No,No,Yes,No,No,No,No
+22,S-FaaS: Trustworthy and Accountable Function-as-a-Service Using Intel SGX,2019,ACM Cloud Security Workshop,"Security, Privacy","SGX, confidentiality",No,No,Yes,No,No,No,No
+23,Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave,2018,SecureComm,"Security, Privacy","SGX, enclave, privacy",No,No,Yes,No,No,No,No
+24,Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing,2020,USENIX ATC,"Security, Isolation","WebAssembly, isolation, stateful",No,No,Yes,No,No,No,No
+25,WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing,2020,IEEE IC2E,"Security, Performance","cold start, architecture",Yes,No,Yes,No,No,No,Yes
+26,Secure Serverless Computing Using Dynamic Information Flow Control,2018,ACM OOPSLA,"Security, Model","information flow, security model",No,No,Yes,No,No,No,No
+27,Workflow Integration Alleviates Identity and Access Management in Serverless Computing,2020,ACSAC,"Security, IAM","identity management, security",No,No,Yes,No,No,No,No
+78,Toward security quantification of serverless computing,2024,Springer,"Security, Privacy","security quantification, attack tree, privacy",No,No,Yes,No,No,No,No
+92,Serverless Computing & Function-as-a-Service (FaaS) Optimization,2023,TAJET,"Performance, Security","FaaS optimization, cold start, security, multi-cloud",Yes,No,Yes,No,No,No,Yes
+101,Toward security quantification of serverless computing,2024,Journal of Cloud Computing,Security & Privacy,"security, quantification, serverless",No,No,Yes,No,No,No,No
+125,Security & privacy edge serverless anomaly detection,2023,ACM e-Energy Conference,Security & Privacy,"anomaly detection, privacy",No,No,Yes,No,No,No,No
+126,Privacy quantification of serverless computing,2024,Journal of Cloud Computing,Security & Privacy,privacy quantification,No,No,Yes,No,No,No,No
+142,Toward security quantification of serverless computing,2024,Springer,"Security, Privacy","security quantification, attack tree, privacy",No,No,Yes,No,No,No,No
+152,Serverless Computing & Function-as-a-Service (FaaS) Optimization,2023,TAJET,"Performance, Security","FaaS optimization, cold start, security, multi-cloud",Yes,No,Yes,No,No,No,Yes
+154,"Lightweight, Secure and Stateful Serverless Computing with PSL",2024,arXiv,"Security, Performance","lightweight computing, security, stateful serverless",No,No,Yes,No,No,No,Yes
+158,LLM-Based Misconfiguration Detection for AWS Serverless Computing,2024,arXiv,Security,"LLM, misconfiguration detection, AWS serverless",No,No,Yes,No,No,No,No

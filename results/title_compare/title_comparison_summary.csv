@@ -1,0 +1,10 @@
+Category,Count,Percentage
+Total Papers,168,100.0%
+Exact Matches (≥90% similarity),108,64.3%
+Similar Matches (70-89% similarity),15,8.9%
+Partial Matches (50-69% similarity),30,17.9%
+Different Titles (<50% similarity),15,8.9%
+Missing Entries,0,0.0%
+,,
+MATCHED PAPERS (Exact + Similar),123,73.2%
+DIFFERENT PAPERS (Partial + Different + Missing),45,26.799999999999997%

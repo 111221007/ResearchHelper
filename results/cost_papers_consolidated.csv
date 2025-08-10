@@ -1,0 +1,21 @@
+consolidated_id,title,year,venue,category,keywords,Latency,Reliability & QoS,Security & Privacy,Cost,Energy Consumption,Resource Management,Benchmarking & Evaluation
+34,Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement,2019,IEEE CLOUD,"QoS, Cost","SLO, cost optimization",No,Yes,No,Yes,No,Yes,No
+36,Modeling and Optimization of Performance and Cost of Serverless Applications,2020,IEEE TPDS,"Cost, Performance",performance-cost model,No,No,No,Yes,No,No,Yes
+37,Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement,2018,IEEE/ACM SEC,"Cost, Performance","cost optimization, fusion",No,No,No,Yes,No,No,Yes
+38,"Be Wary of the Economics of ""Serverless"" Cloud Computing",2017,IEEE Cloud Computing,Cost,"economics, pricing",No,No,No,Yes,No,No,No
+39,Optimal Pricing for Serverless Computing,2019,IEEE GLOBECOM,"Cost, Theory","pricing model, economics",No,No,No,Yes,No,No,No
+40,Cost-Aware Migration to Functions-as-a-Service Architecture,2021,ECSA Workshops,"Cost, Migration","refactoring, cost analysis",No,No,No,Yes,No,No,No
+41,Predicting Performance and Cost of Serverless Functions with SAAF,2020,IEEE DASC,"Cost, Performance","performance prediction, cost model",No,No,No,Yes,No,No,Yes
+42,FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes,2021,USENIX ATC,"Cost, Performance","provisioning, startup, cost",Yes,No,No,Yes,No,Yes,Yes
+43,"CSPOT: Portable, Multi-Scale FaaS for IoT",2019,ACM/IEEE SEC,"Cost, ResourceMgmt","IoT, edge, cost",No,No,No,Yes,No,Yes,No
+58,Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Serverless Execution,2020,IEEE CLOUD,"ResourceMgmt, Cost","hybrid cloud, scheduling",No,No,No,Yes,No,Yes,No
+73,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,2024,IEEE,"Resource Management, Cost","dynamic scaling, resource management, cost optimization",No,No,No,Yes,No,Yes,No
+76,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+82,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+90,Evaluating Serverless Function Deployment Models on AWS Lambda,2025,SCITEPRESS,"Performance, Cost","deployment models, AWS Lambda, performance, cost",No,No,No,Yes,No,No,Yes
+115,Evaluating serverless deployment models on AWS Lambda,2025,SCITEPRESS,"Benchmarking & Evaluation, Cost","AWS Lambda, cost, performance",No,No,No,Yes,No,No,Yes
+121,Joint resource management & pricing for serverless edge offloading,2024,IEEE Transactions on Services Computing,"Resource Management, Cost","pricing, edge offloading",No,No,No,Yes,No,Yes,No
+138,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,2024,IEEE,"Resource Management, Cost","dynamic scaling, resource management, cost optimization",No,No,No,Yes,No,Yes,No
+141,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+146,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+151,Evaluating Serverless Function Deployment Models on AWS Lambda,2025,SCITEPRESS,"Performance, Cost","deployment models, AWS Lambda, performance, cost",No,No,No,Yes,No,No,Yes

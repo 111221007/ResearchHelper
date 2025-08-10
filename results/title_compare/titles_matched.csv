@@ -1,0 +1,124 @@
+paper_id,csv_title,bibtex_title,similarity_score,match_type,notes,title_length_csv,title_length_bibtex
+ref1,"Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions","Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions",1.0,EXACT_MATCH,Perfect match,96,96
+ref2,The Night Shift: Understanding Performance Variability of Cloud Serverless Platforms,The Night Shift: Understanding Performance Variability of Cloud Serverless Platforms,1.0,EXACT_MATCH,Perfect match,84,84
+ref4,"Benchmarking, Analysis, and Optimization of Serverless Function Snapshots","Benchmarking, analysis, and optimization of serverless function snapshots",1.0,EXACT_MATCH,Perfect match,73,73
+ref11,Atoll: A Scalable Low-Latency Serverless Platform,SCOOP: A Scalable Object-Oriented Serverless Platform,0.735,SIMILAR_MATCH,Similar match (73.5% similarity),49,53
+ref14,TinyFaaS: A Lightweight FaaS Platform for Edge Environments,tinyFaaS: A Lightweight FaaS Platform for Edge Environments,1.0,EXACT_MATCH,Perfect match,59,59
+ref15,Cold Start Latency Prediction Framework in Serverless Edge Computing,MASTER: Machine Learning-Based Cold Start Latency Prediction Framework in Serverless Edge Computing Environments for Industry 4.0,0.701,SIMILAR_MATCH,Similar match (70.1% similarity),68,129
+ref18,CloudBurst: Stateful Functions-as-a-Service,Stateful functions as a service in action,0.7,SIMILAR_MATCH,Similar match (70.0% similarity),43,41
+ref19,A Fault-Tolerance Shim for Serverless Computing,A fault-tolerance shim for serverless computing,1.0,EXACT_MATCH,Perfect match,47,47
+ref21,Valve: Securing Function Workflows on Serverless Computing Platforms,Valve: Securing Function Workflows on Serverless Computing Platforms,1.0,EXACT_MATCH,Perfect match,68,68
+ref23,Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave,Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave,1.0,EXACT_MATCH,Perfect match,79,79
+ref25,WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing,WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing,1.0,EXACT_MATCH,Perfect match,87,87
+ref26,Secure Serverless Computing Using Dynamic Information Flow Control,Secure serverless computing using dynamic information flow control,1.0,EXACT_MATCH,Perfect match,66,66
+ref27,Workflow Integration Alleviates Identity and Access Management in Serverless Computing,Workflow Integration Alleviates Identity and Access Management in Serverless Computing,1.0,EXACT_MATCH,Perfect match,86,86
+ref29,QoS Aware FaaS Platform,QoS aware FaaS platform,1.0,EXACT_MATCH,Perfect match,23,23
+ref30,Cocoa: Cold Start Aware Capacity Planning for Function-as-a-Service Platforms,COCOA: Cold Start Aware Capacity Planning for Function-as-a-Service Platforms,1.0,EXACT_MATCH,Perfect match,77,77
+ref31,Adaptive Function Launching Acceleration in Serverless Computing Platforms,Adaptive Function Launching Acceleration in Serverless Computing Platforms,1.0,EXACT_MATCH,Perfect match,74,74
+ref33,Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms,ACPM: adaptive container provisioning model to mitigate serverless cold-start,0.707,SIMILAR_MATCH,Similar match (70.7% similarity),90,77
+ref34,Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement,Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement in Public Cloud,0.91,EXACT_MATCH,Perfect match,82,98
+ref35,Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms,Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms,1.0,EXACT_MATCH,Perfect match,88,88
+ref36,Modeling and Optimization of Performance and Cost of Serverless Applications,Modeling and Optimization of Performance and Cost of Serverless Applications,1.0,EXACT_MATCH,Perfect match,76,76
+ref37,Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement,Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement,1.0,EXACT_MATCH,Perfect match,87,87
+ref38,"Be Wary of the Economics of ""Serverless"" Cloud Computing","Be Wary of the Economics of ""Serverless"" Cloud Computing",1.0,EXACT_MATCH,Perfect match,56,56
+ref39,Optimal Pricing for Serverless Computing,Optimal Pricing for Serverless Computing,1.0,EXACT_MATCH,Perfect match,40,40
+ref41,Predicting Performance and Cost of Serverless Functions with SAAF,Predicting Performance and Cost of Serverless Computing Functions with SAAF,0.929,EXACT_MATCH,Perfect match,65,75
+ref44,Reducing Environmental Impact with Sustainable Serverless Computing,Reducing Environmental Impact with Sustainable Serverless Computing,1.0,EXACT_MATCH,Perfect match,67,67
+ref45,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,1.0,EXACT_MATCH,Perfect match,75,75
+ref46,RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless,RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless,1.0,EXACT_MATCH,Perfect match,83,83
+ref47,Integrating Energy Consumption in the Development of Serverless Applications,Integrating energy consumption in the development of serverless applications,1.0,EXACT_MATCH,Perfect match,76,76
+ref49,A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions,A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions,1.0,EXACT_MATCH,Perfect match,107,107
+ref50,"Serverless Computing: State-of-the-Art, Challenges and Opportunities","Serverless Computing: State-of-the-Art, Challenges and Opportunities",1.0,EXACT_MATCH,Perfect match,68,68
+ref51,Scheduling Methods to Reduce Response Latency of Function as a Service,Scheduling Methods to Reduce Response Latency of Function as a Service,1.0,EXACT_MATCH,Perfect match,70,70
+ref52,DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures,DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures,1.0,EXACT_MATCH,Perfect match,98,98
+ref54,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,1.0,EXACT_MATCH,Perfect match,73,73
+ref56,"Resource Management for Cloud Functions with Memory Tracing, Profiling and Autotuning","Resource Management for Cloud Functions with Memory Tracing, Profiling and Autotuning",1.0,EXACT_MATCH,Perfect match,85,85
+ref57,EMARS: Efficient Management and Allocation of Resources in Serverless,EMARS: Efficient Management and Allocation of Resources in Serverless,1.0,EXACT_MATCH,Perfect match,69,69
+ref58,Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Serverless Execution,Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Execution of Serverless Applications,0.848,SIMILAR_MATCH,Similar match (84.8% similarity),73,89
+ref60,AuctionWhisk: Auction-Inspired Approach for Function Placement in Serverless Fog Platforms,AuctionWhisk: Using an auction‐inspired approach for function placement in serverless fog platforms,0.951,EXACT_MATCH,Perfect match,90,99
+ref61,Comparison of FaaS Platform Performance in Private Clouds,Comparison of FaaS Platform Performance in Private Clouds,1.0,EXACT_MATCH,Perfect match,57,57
+ref62,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,1.0,EXACT_MATCH,Perfect match,69,69
+ref64,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,1.0,EXACT_MATCH,Perfect match,127,127
+ref65,Optimizing Cold Start Performance in Serverless Computing Environments,Optimizing Cold Start Performance in Serverless Computing Environments,1.0,EXACT_MATCH,Perfect match,70,70
+ref66,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,1.0,EXACT_MATCH,Perfect match,91,91
+ref67,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,1.0,EXACT_MATCH,Perfect match,64,64
+ref68,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,1.0,EXACT_MATCH,Perfect match,76,76
+ref69,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,1.0,EXACT_MATCH,Perfect match,88,88
+ref70,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,1.0,EXACT_MATCH,Perfect match,74,74
+ref71,Towards Quality of Experience Fairness for Serverless Functions,Towards Quality of Experience Fairness for Serverless Functions,1.0,EXACT_MATCH,Perfect match,63,63
+ref72,Enabling HPC Scientific Workflows for Serverless,Enabling HPC Scientific Workflows for Serverless,1.0,EXACT_MATCH,Perfect match,48,48
+ref73,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,1.0,EXACT_MATCH,Perfect match,91,91
+ref74,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,1.0,EXACT_MATCH,Perfect match,91,91
+ref75,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects","Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",1.0,EXACT_MATCH,Perfect match,88,88
+ref76,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,1.0,EXACT_MATCH,Perfect match,86,86
+ref77,Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management,Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management,1.0,EXACT_MATCH,Perfect match,118,118
+ref78,Toward security quantification of serverless computing,Toward security quantification of serverless computing,1.0,EXACT_MATCH,Perfect match,54,54
+ref79,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,1.0,EXACT_MATCH,Perfect match,75,75
+ref80,A Performance Benchmark for Serverless Function Triggers,TriggerBench: A Performance Benchmark for Serverless Function Triggers,0.896,SIMILAR_MATCH,Similar match (89.6% similarity),56,70
+ref83,Practical Cloud Workloads for Serverless FaaS,Practical Cloud Workloads for Serverless FaaS,1.0,EXACT_MATCH,Perfect match,45,45
+ref84,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,1.0,EXACT_MATCH,Perfect match,73,73
+ref85,Analyzing Tail Latency in Serverless Clouds with STeLLAR,Analyzing Tail Latency in Serverless Clouds with STeLLAR,1.0,EXACT_MATCH,Perfect match,56,56
+ref86,Benchmarking Serverless Computing Platforms,Benchmarking Serverless Computing Platforms,1.0,EXACT_MATCH,Perfect match,43,43
+ref87,Comparison of FaaS Platform Performance in Private Clouds,Comparison of FaaS Platform Performance in Private Clouds,1.0,EXACT_MATCH,Perfect match,57,57
+ref90,Evaluating Serverless Function Deployment Models on AWS Lambda,Evaluating Serverless Function Deployment Models on AWS Lambda,1.0,EXACT_MATCH,Perfect match,62,62
+ref91,Function-as-a-Service Benchmarking Framework,Function-as-a-Service Benchmarking Framework,1.0,EXACT_MATCH,Perfect match,44,44
+ref92,Serverless Computing & Function-as-a-Service (FaaS) Optimization,Serverless Computing &amp; Function-as-a-Service (FaaS) Optimization,0.975,EXACT_MATCH,Perfect match,64,68
+ref93,Rise of the Planet of Serverless Computing: A Systematic Review,Rise of the Planet of Serverless Computing: A Systematic Review,1.0,EXACT_MATCH,Perfect match,63,63
+ref94,Towards Seamless Serverless Computing Across an Edge-Cloud Continuum,Towards Seamless Serverless Computing Across an Edge-Cloud Continuum,1.0,EXACT_MATCH,Perfect match,68,68
+ref95,An Application-Centric Benchmarking Framework for FaaS Platforms,BeFaaS: An Application-Centric Benchmarking Framework for FaaS Platforms,0.947,EXACT_MATCH,Perfect match,64,72
+ref96,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,Function-as-a-Service performance evaluation: A multivocal literature review,1.0,EXACT_MATCH,Perfect match,76,76
+ref98,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,Function-as-a-Service performance evaluation: A multivocal literature review,1.0,EXACT_MATCH,Perfect match,76,76
+ref99,Benchmarking Serverless Computing Platforms,Benchmarking Serverless Computing Platforms,1.0,EXACT_MATCH,Perfect match,43,43
+ref100,Serverless Computing: Current Trends and Open Problems – A Comprehensive Survey,Serverless Computing: Current Trends and Open Problems,0.815,SIMILAR_MATCH,Similar match (81.5% similarity),79,54
+ref101,Toward security quantification of serverless computing,Toward security quantification of serverless computing,1.0,EXACT_MATCH,Perfect match,54,54
+ref102,A survey on cold-start latency approaches in serverless computing,A survey on the cold start latency approaches in serverless computing: an optimization-based perspective,0.771,SIMILAR_MATCH,Similar match (77.1% similarity),65,104
+ref103,Optimizing cold start performance in serverless computing environments,Optimizing Cold Start Performance in Serverless Computing Environments,1.0,EXACT_MATCH,Perfect match,70,70
+ref104,Low-latency edge-cloud serverless computing with a multi-armed bandit scheduler,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,0.927,EXACT_MATCH,Perfect match,79,91
+ref105,FUYAO: DPU-enabled direct data transfer for serverless computing,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,1.0,EXACT_MATCH,Perfect match,64,64
+ref106,Tackling cold start in serverless computing with multi-level container reuse,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,1.0,EXACT_MATCH,Perfect match,76,76
+ref107,Analyzing tail latency in serverless clouds with STeLLAR,Analyzing Tail Latency in Serverless Clouds with STeLLAR,1.0,EXACT_MATCH,Perfect match,56,56
+ref108,EdgeFaaSBench: Benchmarking edge devices using serverless computing,EdgeFaaSBench: Benchmarking Edge Devices Using Serverless Computing,1.0,EXACT_MATCH,Perfect match,67,67
+ref109,BenchFaaS: Benchmarking serverless functions in an edge computing network testbed,BenchFaaS: Benchmarking Serverless Functions in an Edge Computing Network Testbed,1.0,EXACT_MATCH,Perfect match,81,81
+ref110,Performance characterization of data-store event triggers for serverless computing,Performance Characterization of Data Store Event Trigger Mechanisms for Serverless Computing,0.936,EXACT_MATCH,Perfect match,82,92
+ref111,SeBS-Flow: Benchmarking serverless cloud function workflows,SeBS-Flow: Benchmarking Serverless Cloud Function Workflows,1.0,EXACT_MATCH,Perfect match,59,59
+ref112,Accelerating serverless computing by harvesting idle resources,Accelerating Serverless Computing by Harvesting Idle Resources,1.0,EXACT_MATCH,Perfect match,62,62
+ref113,Scalable continuous benchmarking on cloud FaaS platforms,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,0.903,EXACT_MATCH,Perfect match,56,69
+ref114,Comparison of FaaS performance in private clouds,Comparison of FaaS Platform Performance in Private Clouds,0.914,EXACT_MATCH,Perfect match,48,57
+ref115,Evaluating serverless deployment models on AWS Lambda,Evaluating Serverless Function Deployment Models on AWS Lambda,0.922,EXACT_MATCH,Perfect match,53,62
+ref116,Function-as-a-Service benchmarking framework,Function-as-a-Service Benchmarking Framework,1.0,EXACT_MATCH,Perfect match,44,44
+ref118,Serverless architecture for efficient Monte Carlo MCMC computation,A Serverless Architecture for Efficient and Scalable Monte Carlo Markov Chain Computation,0.826,SIMILAR_MATCH,Similar match (82.6% similarity),66,89
+ref119,Efficiency in the serverless paradigm: reuse & approximation aspects,Efficiency in the serverless cloud paradigm: A survey on the reusing and approximation aspects,0.818,SIMILAR_MATCH,Similar match (81.8% similarity),68,94
+ref121,Joint resource management & pricing for serverless edge offloading,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,0.781,SIMILAR_MATCH,Similar match (78.1% similarity),66,86
+ref123,On the power consumption of serverless functions: An evaluation,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,0.912,EXACT_MATCH,Perfect match,63,75
+ref126,Privacy quantification of serverless computing,Toward security quantification of serverless computing,0.84,SIMILAR_MATCH,Similar match (84.0% similarity),46,54
+ref129,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,1.0,EXACT_MATCH,Perfect match,127,127
+ref130,Optimizing Cold Start Performance in Serverless Computing Environments,Optimizing Cold Start Performance in Serverless Computing Environments,1.0,EXACT_MATCH,Perfect match,70,70
+ref131,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,1.0,EXACT_MATCH,Perfect match,91,91
+ref132,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,1.0,EXACT_MATCH,Perfect match,64,64
+ref133,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,1.0,EXACT_MATCH,Perfect match,76,76
+ref134,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,1.0,EXACT_MATCH,Perfect match,88,88
+ref135,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,1.0,EXACT_MATCH,Perfect match,74,74
+ref136,Towards Quality of Experience Fairness for Serverless Functions,Towards Quality of Experience Fairness for Serverless Functions,1.0,EXACT_MATCH,Perfect match,63,63
+ref137,Enabling HPC Scientific Workflows for Serverless,Enabling HPC Scientific Workflows for Serverless,1.0,EXACT_MATCH,Perfect match,48,48
+ref138,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,1.0,EXACT_MATCH,Perfect match,91,91
+ref139,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,1.0,EXACT_MATCH,Perfect match,91,91
+ref140,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects","Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",1.0,EXACT_MATCH,Perfect match,88,88
+ref141,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,1.0,EXACT_MATCH,Perfect match,86,86
+ref142,Toward security quantification of serverless computing,Toward security quantification of serverless computing,1.0,EXACT_MATCH,Perfect match,54,54
+ref143,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,1.0,EXACT_MATCH,Perfect match,75,75
+ref144,A Performance Benchmark for Serverless Function Triggers,TriggerBench: A Performance Benchmark for Serverless Function Triggers,0.896,SIMILAR_MATCH,Similar match (89.6% similarity),56,70
+ref147,Practical Cloud Workloads for Serverless FaaS,Practical Cloud Workloads for Serverless FaaS,1.0,EXACT_MATCH,Perfect match,45,45
+ref148,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,1.0,EXACT_MATCH,Perfect match,73,73
+ref149,Scalable Continuous Benchmarking on Cloud FaaS Platforms,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,0.903,EXACT_MATCH,Perfect match,56,69
+ref150,Comparison of FaaS Platform Performance in Private Clouds,Comparison of FaaS Platform Performance in Private Clouds,1.0,EXACT_MATCH,Perfect match,57,57
+ref151,Evaluating Serverless Function Deployment Models on AWS Lambda,Evaluating Serverless Function Deployment Models on AWS Lambda,1.0,EXACT_MATCH,Perfect match,62,62
+ref152,Serverless Computing & Function-as-a-Service (FaaS) Optimization,Serverless Computing &amp; Function-as-a-Service (FaaS) Optimization,0.975,EXACT_MATCH,Perfect match,64,68
+ref153,Cold Start Latency in Serverless Computing: A Systematic Review,A Review: Cold Start Latency in Serverless Computing,0.743,SIMILAR_MATCH,Similar match (74.3% similarity),63,52
+ref157,Serverless Actors with Short-Term Memory State for the Edge-Cloud Continuum,GoldFish: Serverless Actors with Short-Term Memory State for the Edge-Cloud Continuum,0.942,EXACT_MATCH,Perfect match,75,85
+ref158,LLM-Based Misconfiguration Detection for AWS Serverless Computing,LLM-Based Misconfiguration Detection for AWS Serverless Computing,1.0,EXACT_MATCH,Perfect match,65,65
+ref159,Input-Based Ensemble-Learning Method for Dynamic Memory Configuration,Input-Based Ensemble-Learning Method for Dynamic Memory Configuration of Serverless Computing Functions,0.798,SIMILAR_MATCH,Similar match (79.8% similarity),69,103
+ref161,Serverless Computing for Scientific Applications,Serverless Computing for Scientific Applications,1.0,EXACT_MATCH,Perfect match,48,48
+ref162,Efficiency in the Serverless Cloud Paradigm: Reusing and Approximation Aspects,Efficiency in the serverless cloud paradigm: A survey on the reusing and approximation aspects,0.906,EXACT_MATCH,Perfect match,78,94
+ref165,Accelerating Serverless Computing by Harvesting Idle Resources,Accelerating Serverless Computing by Harvesting Idle Resources,1.0,EXACT_MATCH,Perfect match,62,62
+ref166,In-Storage Domain-Specific Acceleration for Serverless Computing,In-Storage Domain-Specific Acceleration for Serverless Computing,1.0,EXACT_MATCH,Perfect match,64,64
+ref167,A Serverless Architecture for Efficient Monte Carlo Markov Chain Computation,A Serverless Architecture for Efficient and Scalable Monte Carlo Markov Chain Computation,0.921,EXACT_MATCH,Perfect match,76,89

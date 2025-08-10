@@ -1,0 +1,17 @@
+consolidated_id,title,year,venue,category,keywords,Latency,Reliability & QoS,Security & Privacy,Cost,Energy Consumption,Resource Management,Benchmarking & Evaluation
+44,Reducing Environmental Impact with Sustainable Serverless Computing,2025,MDPI Sustainability,"Energy, Sustainability","energy efficiency, green IT",No,No,No,No,Yes,No,No
+45,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,CIFS Workshop,"Energy, Performance","power consumption, OpenFaaS",No,No,No,No,Yes,No,Yes
+46,RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless,2021,IEEE ICPADS,"Energy, ResourceMgmt","energy allocation, RL scheduler",No,No,No,No,Yes,Yes,No
+47,Integrating Energy Consumption in the Development of Serverless Applications,2023,Journal of Systems Architecture,"Energy, Tooling","energy monitoring, development",No,No,No,No,Yes,No,No
+48,Harvesting Idle Resources for Accelerating Serverless Computing,2022,The Web Conference (WWW),"Energy, Performance","idle resources, energy reuse",No,No,No,No,Yes,Yes,Yes
+74,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,2024,IEEE,"Resource Management, Energy Consumption","AI, sustainable computing, edge computing, energy efficiency",No,No,No,No,Yes,Yes,No
+76,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+79,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,IEEE Conference,Energy Consumption,"power consumption, energy efficiency, OpenFaaS",No,No,No,No,Yes,No,Yes
+82,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+122,ATOM: AI-powered sustainable resource management,2024,IEEE Transactions on Cloud Computing,"Resource Management, Energy Consumption","AI, sustainability",No,No,No,No,Yes,Yes,No
+123,On the power consumption of serverless functions: An evaluation,2022,IEEE Computers in Science & Engineering,Energy Consumption,"power consumption, OpenFaaS",No,No,No,No,Yes,No,Yes
+139,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,2024,IEEE,"Resource Management, Energy Consumption","AI, sustainable computing, edge computing, energy efficiency",No,No,No,No,Yes,Yes,No
+141,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+143,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,IEEE Conference,Energy Consumption,"power consumption, energy efficiency, OpenFaaS",No,No,No,No,Yes,No,Yes
+146,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+168,Energy Efficiency Support for Software Defined Networks: a Serverless Computing Approach,2024,arXiv,Energy Consumption,"energy efficiency, SDN, serverless computing",No,No,No,No,Yes,No,No

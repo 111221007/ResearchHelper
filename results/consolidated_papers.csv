@@ -1,0 +1,169 @@
+consolidated_id,title,year,venue,category,keywords,Latency,Reliability & QoS,Security & Privacy,Cost,Energy Consumption,Resource Management,Benchmarking & Evaluation
+1,"Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions",2024,ACM Computing Surveys,"Performance, Latency","cold start, survey, taxonomy",Yes,No,No,No,No,No,Yes
+2,The Night Shift: Understanding Performance Variability of Cloud Serverless Platforms,2023,SESAME '23 Workshop (ACM),"Performance, Variability","performance variability, diurnal pattern, cold start",Yes,No,No,No,No,No,Yes
+3,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,2020,arXiv (Benchmarking Suite),"Performance, Benchmarking","benchmark suite, performance evaluation",No,No,No,No,No,No,Yes
+4,"Benchmarking, Analysis, and Optimization of Serverless Function Snapshots",2021,ASPLOS,"Performance, Startup","snapshot, Firecracker, cold start",Yes,No,No,No,No,No,Yes
+5,Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting,2020,ASPLOS,"Performance, Latency","cold start, kernel, quick boot",Yes,No,No,No,No,No,Yes
+6,Firecracker: Lightweight Virtualization for Serverless Applications,2020,USENIX NSDI,"Performance, Isolation","microVM, isolation, startup time",Yes,No,No,No,No,No,Yes
+7,SEUSS: Skip Redundant Paths to Make Serverless Fast,2020,EuroSys,"Performance, Optimization","optimizing platform, latency",Yes,No,No,No,No,No,Yes
+8,From Warm to Hot Starts: Leveraging Runtimes for the Serverless Era,2021,HotOS,"Performance, Cold Start","runtime reuse, warm starts",Yes,No,No,No,No,No,Yes
+9,Peeking Behind the Curtains of Serverless Platforms,2018,USENIX ATC,"Performance, Measurement","measurement study, AWS Lambda",No,No,No,No,No,No,Yes
+10,Wukong: A Scalable and Locality-Enhanced Framework for Serverless Parallel Computing,2020,ACM SoCC,"Performance, Parallelism","parallel computing, locality",No,No,No,No,No,No,Yes
+11,Atoll: A Scalable Low-Latency Serverless Platform,2021,ACM SoCC,"Performance, Latency","platform design, low latency",Yes,No,No,No,No,No,Yes
+12,FaaStLane: Accelerating Function-as-a-Service Workflows,2021,USENIX ATC,"Performance, Workflow","workflow, caching, DAG",No,No,No,No,No,No,Yes
+13,SAND: Towards High-Performance Serverless Computing,2018,USENIX ATC,"Performance, Cold Start","sandbox, warm pool",Yes,No,No,No,No,No,Yes
+14,TinyFaaS: A Lightweight FaaS Platform for Edge Environments,2020,IEEE Fog Computing,"Performance, Edge","edge computing, lightweight FaaS",No,No,No,No,No,No,Yes
+15,Cold Start Latency Prediction Framework in Serverless Edge Computing,2024,IEEE JSAC,"Performance, Latency","edge, cold start, prediction",Yes,No,No,No,No,No,Yes
+16,Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider,2020,USENIX ATC,"Reliability, Workload","workload analysis, optimization",No,Yes,No,No,No,No,No
+17,Fault-tolerant and Transactional Stateful Serverless Workflows,2020,USENIX OSDI,"Reliability, Workflow","fault tolerance, transactions, stateful",No,Yes,No,No,No,No,No
+18,CloudBurst: Stateful Functions-as-a-Service,2020,VLDB,"Reliability, Stateful","stateful FaaS, storage",No,Yes,No,No,No,No,No
+19,A Fault-Tolerance Shim for Serverless Computing,2020,EuroSys,Reliability,"fault tolerance, shim",No,Yes,No,No,No,No,No
+20,OFC: An Opportunistic Caching System for FaaS Platforms,2021,EuroSys,"Reliability, Caching","edge caching, FaaS",No,Yes,No,No,No,No,No
+21,Valve: Securing Function Workflows on Serverless Computing Platforms,2020,WWW Conference,"Security, Workflow","security, workflow, data flow control",No,No,Yes,No,No,No,No
+22,S-FaaS: Trustworthy and Accountable Function-as-a-Service Using Intel SGX,2019,ACM Cloud Security Workshop,"Security, Privacy","SGX, confidentiality",No,No,Yes,No,No,No,No
+23,Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave,2018,SecureComm,"Security, Privacy","SGX, enclave, privacy",No,No,Yes,No,No,No,No
+24,Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing,2020,USENIX ATC,"Security, Isolation","WebAssembly, isolation, stateful",No,No,Yes,No,No,No,No
+25,WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing,2020,IEEE IC2E,"Security, Performance","cold start, architecture",Yes,No,Yes,No,No,No,Yes
+26,Secure Serverless Computing Using Dynamic Information Flow Control,2018,ACM OOPSLA,"Security, Model","information flow, security model",No,No,Yes,No,No,No,No
+27,Workflow Integration Alleviates Identity and Access Management in Serverless Computing,2020,ACSAC,"Security, IAM","identity management, security",No,No,Yes,No,No,No,No
+28,Sequoia: Enabling Quality-of-Service in Serverless Computing,2020,ACM SoCC,"QoS, Scheduling","QoS, scheduling, isolation",No,Yes,No,No,No,Yes,No
+29,QoS Aware FaaS Platform,2021,IEEE/ACM CCGrid,"QoS, Scheduling","QoS, FaaS scheduling",No,Yes,No,No,No,Yes,No
+30,Cocoa: Cold Start Aware Capacity Planning for Function-as-a-Service Platforms,2020,IEEE MASCOTS,"QoS, Performance","capacity planning, cold start",Yes,Yes,No,No,No,No,Yes
+31,Adaptive Function Launching Acceleration in Serverless Computing Platforms,2019,IEEE ICPADS,"QoS, Performance","pre-warm, scheduling",No,Yes,No,No,No,Yes,Yes
+32,Caerus: NIMBLE Task Scheduling for Serverless Analytics,2021,USENIX NSDI,"QoS, Scheduling","analytics, scheduling, performance",No,Yes,No,No,No,Yes,Yes
+33,Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms,2021,ACM SoCC,"QoS, ResourceMgmt","DAG, autoscaling",No,Yes,No,No,No,Yes,No
+34,Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement,2019,IEEE CLOUD,"QoS, Cost","SLO, cost optimization",No,Yes,No,Yes,No,Yes,No
+35,Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms,2021,IEEE ICDCS,"QoS, Performance","scheduler, cold start",Yes,Yes,No,No,No,No,Yes
+36,Modeling and Optimization of Performance and Cost of Serverless Applications,2020,IEEE TPDS,"Cost, Performance",performance-cost model,No,No,No,Yes,No,No,Yes
+37,Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement,2018,IEEE/ACM SEC,"Cost, Performance","cost optimization, fusion",No,No,No,Yes,No,No,Yes
+38,"Be Wary of the Economics of ""Serverless"" Cloud Computing",2017,IEEE Cloud Computing,Cost,"economics, pricing",No,No,No,Yes,No,No,No
+39,Optimal Pricing for Serverless Computing,2019,IEEE GLOBECOM,"Cost, Theory","pricing model, economics",No,No,No,Yes,No,No,No
+40,Cost-Aware Migration to Functions-as-a-Service Architecture,2021,ECSA Workshops,"Cost, Migration","refactoring, cost analysis",No,No,No,Yes,No,No,No
+41,Predicting Performance and Cost of Serverless Functions with SAAF,2020,IEEE DASC,"Cost, Performance","performance prediction, cost model",No,No,No,Yes,No,No,Yes
+42,FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes,2021,USENIX ATC,"Cost, Performance","provisioning, startup, cost",Yes,No,No,Yes,No,Yes,Yes
+43,"CSPOT: Portable, Multi-Scale FaaS for IoT",2019,ACM/IEEE SEC,"Cost, ResourceMgmt","IoT, edge, cost",No,No,No,Yes,No,Yes,No
+44,Reducing Environmental Impact with Sustainable Serverless Computing,2025,MDPI Sustainability,"Energy, Sustainability","energy efficiency, green IT",No,No,No,No,Yes,No,No
+45,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,CIFS Workshop,"Energy, Performance","power consumption, OpenFaaS",No,No,No,No,Yes,No,Yes
+46,RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless,2021,IEEE ICPADS,"Energy, ResourceMgmt","energy allocation, RL scheduler",No,No,No,No,Yes,Yes,No
+47,Integrating Energy Consumption in the Development of Serverless Applications,2023,Journal of Systems Architecture,"Energy, Tooling","energy monitoring, development",No,No,No,No,Yes,No,No
+48,Harvesting Idle Resources for Accelerating Serverless Computing,2022,The Web Conference (WWW),"Energy, Performance","idle resources, energy reuse",No,No,No,No,Yes,Yes,Yes
+49,A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions,2021,ACM Computing Surveys,"ResourceMgmt, Survey","resource management, taxonomy",No,No,No,No,No,Yes,No
+50,"Serverless Computing: State-of-the-Art, Challenges and Opportunities",2022,IEEE TSC (Early Access),"ResourceMgmt, Survey","survey, resource challenges",No,No,No,No,No,Yes,No
+51,Scheduling Methods to Reduce Response Latency of Function as a Service,2020,IEEE SBAC-PAD,"ResourceMgmt, Performance","scheduling, latency",Yes,No,No,No,No,Yes,Yes
+52,DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures,2019,Proc. 9th CLOSER,"ResourceMgmt, Multi-cloud","multi-cloud, scheduling",No,No,No,No,No,Yes,No
+53,Adaptive Container Provisioning for Serverless Workflows (SFL Compiler),2021,WoSC '21,"ResourceMgmt, Performance","workflow, stateful functions",No,No,No,No,No,Yes,Yes
+54,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,2019,IEEE CLOUD,"ResourceMgmt, Benchmarking","workloads, benchmark",No,No,No,No,No,Yes,Yes
+55,Sizeless: Predicting the Optimal Size of Serverless Functions,2021,ACM Middleware,"ResourceMgmt, Performance","autoscaling, memory sizing",No,No,No,No,No,Yes,Yes
+56,"Resource Management for Cloud Functions with Memory Tracing, Profiling and Autotuning",2020,6th Intl. Workshop on Serverless Computing,"ResourceMgmt, Performance","memory tuning, profiling",No,No,No,No,No,Yes,Yes
+57,EMARS: Efficient Management and Allocation of Resources in Serverless,2018,IEEE CLOUD,ResourceMgmt,"resource allocation, FaaS",No,No,No,No,No,Yes,No
+58,Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Serverless Execution,2020,IEEE CLOUD,"ResourceMgmt, Cost","hybrid cloud, scheduling",No,No,No,Yes,No,Yes,No
+59,Optimizing Serverless Computing: Introducing an Adaptive Function Placement Algorithm,2019,CASCON,"ResourceMgmt, Performance","function placement, edge vs cloud",No,No,No,No,No,Yes,Yes
+60,AuctionWhisk: Auction-Inspired Approach for Function Placement in Serverless Fog Platforms,2022,Software: Practice & Experience,"ResourceMgmt, Scheduling","fog computing, auction scheduling",No,No,No,No,No,Yes,No
+61,Comparison of FaaS Platform Performance in Private Clouds,2022,Proc. 12th CLOSER (SciTePress),"Performance, Benchmarking","OpenFaaS, OpenWhisk, private cloud",No,No,No,No,No,No,Yes
+62,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,2024,IEEE IC2E (arXiv preprint),"Benchmarking, Performance","continuous benchmarking, scalability",No,No,No,No,No,No,Yes
+63,Performance Evaluation of Serverless Applications and Infrastructures,2022,PhD Thesis (Chalmers),"Performance, Benchmarking","benchmark survey, reproducibility",No,No,No,No,No,No,Yes
+64,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,2024,IEEE,"Reliability, Performance","reliability, efficiency, autoscaling, edge computing, latency, resource management",Yes,Yes,No,No,No,Yes,Yes
+65,Optimizing Cold Start Performance in Serverless Computing Environments,2024,IEEE,"Latency, Performance","cold start, latency, performance, reliability",Yes,Yes,No,No,No,No,Yes
+66,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,2024,IEEE,"Latency, Resource Management","low-latency, edge-cloud, scheduling, multi-armed bandit",Yes,No,No,No,No,Yes,No
+67,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,2024,ACM,"Latency, Performance","data transfer, latency, DPU, performance",Yes,No,No,No,No,No,Yes
+68,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,2024,IEEE,"Latency, Resource Management","cold start, container reuse, resource management",Yes,No,No,No,No,Yes,No
+69,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,2024,IEEE,"Performance, Resource Management","asynchronous programming, burst requests, performance, resource management",No,No,No,No,No,Yes,Yes
+70,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,2022,IEEE,"Resource Management, Performance","resource scaling, edge computing, auto-scaling",No,No,No,No,No,Yes,Yes
+71,Towards Quality of Experience Fairness for Serverless Functions,2024,IEEE,"QoS, Resource Management","QoS, fairness, resource allocation",No,Yes,No,No,No,Yes,No
+72,Enabling HPC Scientific Workflows for Serverless,2024,IEEE,"Resource Management, Performance","HPC, scientific workflows, resource management",No,No,No,No,No,Yes,Yes
+73,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,2024,IEEE,"Resource Management, Cost","dynamic scaling, resource management, cost optimization",No,No,No,Yes,No,Yes,No
+74,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,2024,IEEE,"Resource Management, Energy Consumption","AI, sustainable computing, edge computing, energy efficiency",No,No,No,No,Yes,Yes,No
+75,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",2023,IEEE,"Resource Management, Survey","resource management, survey, QoS",No,Yes,No,No,No,Yes,No
+76,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+77,Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management,2024,IEEE,"Resource Management, Latency","edge computing, offloading, resource management, latency",Yes,No,No,No,No,Yes,No
+78,Toward security quantification of serverless computing,2024,Springer,"Security, Privacy","security quantification, attack tree, privacy",No,No,Yes,No,No,No,No
+79,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,IEEE Conference,Energy Consumption,"power consumption, energy efficiency, OpenFaaS",No,No,No,No,Yes,No,Yes
+80,A Performance Benchmark for Serverless Function Triggers,2022,IEEE IC2E,"Performance, Benchmarking","performance benchmark, function triggers, distributed tracing",No,No,No,No,No,No,Yes
+81,Designing Quality of Service aware Serverless Platforms,2024,IISc Thesis,QoS,"QoS, serverless platforms, resource allocation",No,Yes,No,No,No,Yes,No
+82,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+83,Practical Cloud Workloads for Serverless FaaS,2019,ACM,Benchmarking,"workloads, FaaS, benchmarking, evaluation",No,No,No,No,No,No,Yes
+84,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,2019,IEEE,Benchmarking,"benchmark, workloads, cloud functions",No,No,No,No,No,No,Yes
+85,Analyzing Tail Latency in Serverless Clouds with STeLLAR,2021,IEEE,"Latency, Benchmarking","tail latency, performance characterization, benchmarking",Yes,No,No,No,No,No,Yes
+86,Benchmarking Serverless Computing Platforms,2020,Springer,Benchmarking,"benchmarking, performance evaluation, cloud platforms",No,No,No,No,No,No,Yes
+87,Comparison of FaaS Platform Performance in Private Clouds,2022,SCITEPRESS,"Performance, Benchmarking","FaaS platforms, private clouds, performance comparison",No,No,No,No,No,No,Yes
+88,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,2021,ACM Middleware,Benchmarking,"benchmark suite, FaaS, performance evaluation",No,No,No,No,No,No,Yes
+89,"Performance Evaluation Of Amazon's, Google's, And Microsoft's Serverless Functions: A Comparative Study",2021,IJSTR,"Performance, Benchmarking","AWS Lambda, Google Cloud Functions, Azure Functions, performance comparison",No,No,No,No,No,No,Yes
+90,Evaluating Serverless Function Deployment Models on AWS Lambda,2025,SCITEPRESS,"Performance, Cost","deployment models, AWS Lambda, performance, cost",No,No,No,Yes,No,No,Yes
+91,Function-as-a-Service Benchmarking Framework,2019,SCITEPRESS,Benchmarking,"benchmarking framework, FaaS, performance evaluation",No,No,No,No,No,No,Yes
+92,Serverless Computing & Function-as-a-Service (FaaS) Optimization,2023,TAJET,"Performance, Security","FaaS optimization, cold start, security, multi-cloud",Yes,No,Yes,No,No,No,Yes
+93,Rise of the Planet of Serverless Computing: A Systematic Review,2022,arXiv,Survey,"systematic review, serverless computing, performance optimization",No,No,No,No,No,No,Yes
+94,Towards Seamless Serverless Computing Across an Edge-Cloud Continuum,2024,arXiv,Edge Computing,"edge-cloud, orchestration, serverless deployment",No,No,No,No,No,No,No
+95,An Application-Centric Benchmarking Framework for FaaS Platforms,2021,arXiv,Benchmarking,"application-centric, benchmarking, FaaS platforms",No,No,No,No,No,No,Yes
+96,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,2020,arXiv,"Survey, Performance","performance evaluation, literature review, FaaS",No,No,No,No,No,No,Yes
+97,Survey on serverless computing: Performance evaluation & benchmarking,2021,Journal of Cloud Computing,Benchmarking & Evaluation,"serverless, benchmarking, performance evaluation",No,No,No,No,No,No,Yes
+98,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,2020,Journal of Systems and Software,Benchmarking & Evaluation,"FaaS, performance evaluation, literature review",No,No,No,No,No,No,Yes
+99,Benchmarking Serverless Computing Platforms,2020,Journal of Grid Computing,Benchmarking & Evaluation,"serverless, benchmarking, cloud platforms",No,No,No,No,No,No,Yes
+100,Serverless Computing: Current Trends and Open Problems – A Comprehensive Survey,2022,ACM Computing Surveys,Benchmarking & Evaluation,"serverless, survey, performance",No,No,No,No,No,No,Yes
+101,Toward security quantification of serverless computing,2024,Journal of Cloud Computing,Security & Privacy,"security, quantification, serverless",No,No,Yes,No,No,No,No
+102,A survey on cold-start latency approaches in serverless computing,2024,Computing,Latency,"cold start, latency, serverless",Yes,No,No,No,No,No,No
+103,Optimizing cold start performance in serverless computing environments,2024,IEEE IC2E,"Latency, Performance","cold start, latency, performance",Yes,No,No,No,No,No,Yes
+104,Low-latency edge-cloud serverless computing with a multi-armed bandit scheduler,2024,IEEE Transactions on Cloud Computing,"Latency, Resource Management","latency, edge computing, scheduling",Yes,No,No,No,No,Yes,No
+105,FUYAO: DPU-enabled direct data transfer for serverless computing,2024,ACM SoCC,"Latency, Performance","data transfer, DPU, latency",Yes,No,No,No,No,No,Yes
+106,Tackling cold start in serverless computing with multi-level container reuse,2024,IEEE Transactions on Cloud Computing,"Latency, Resource Management","container reuse, cold start, serverless",Yes,No,No,No,No,Yes,No
+107,Analyzing tail latency in serverless clouds with STeLLAR,2021,IEEE ICDCS,"Latency, Benchmarking & Evaluation","tail latency, benchmarking",Yes,No,No,No,No,No,Yes
+108,EdgeFaaSBench: Benchmarking edge devices using serverless computing,2022,IEEE EDGE,Benchmarking & Evaluation,"edge computing, benchmark",No,No,No,No,No,No,Yes
+109,BenchFaaS: Benchmarking serverless functions in an edge computing network testbed,2022,IEEE ICCCN,Benchmarking & Evaluation,"benchmark, edge network",No,No,No,No,No,No,Yes
+110,Performance characterization of data-store event triggers for serverless computing,2025,IEEE ICDCS,Benchmarking & Evaluation,"event triggers, performance",No,No,No,No,No,No,Yes
+111,SeBS-Flow: Benchmarking serverless cloud function workflows,2024,ACM SoCC,Benchmarking & Evaluation,"workflows, benchmark",No,No,No,No,No,No,Yes
+112,Accelerating serverless computing by harvesting idle resources,2022,arXiv,Benchmarking & Evaluation,"resource harvesting, performance",No,No,No,No,No,Yes,Yes
+113,Scalable continuous benchmarking on cloud FaaS platforms,2024,arXiv,Benchmarking & Evaluation,continuous benchmarking,No,No,No,No,No,No,Yes
+114,Comparison of FaaS performance in private clouds,2022,SCITEPRESS,Benchmarking & Evaluation,"private cloud, FaaS",No,No,No,No,No,No,Yes
+115,Evaluating serverless deployment models on AWS Lambda,2025,SCITEPRESS,"Benchmarking & Evaluation, Cost","AWS Lambda, cost, performance",No,No,No,Yes,No,No,Yes
+116,Function-as-a-Service benchmarking framework,2019,SCITEPRESS,Benchmarking & Evaluation,benchmarking framework,No,No,No,No,No,No,Yes
+117,Benchmarking serverless computing: performance and usability,2022,IGI Global,Benchmarking & Evaluation,"usability, performance",No,No,No,No,No,No,Yes
+118,Serverless architecture for efficient Monte Carlo MCMC computation,2023,arXiv,"Resource Management, Performance","MCMC, serverless",No,No,No,No,No,Yes,Yes
+119,Efficiency in the serverless paradigm: reuse & approximation aspects,2023,Future Generation Computer Systems,Resource Management,"reuse, approximation",No,No,No,No,No,Yes,No
+120,Resource management review in serverless computing,2023,IEEE Transactions on Cloud Computing,Resource Management,"auto-scaling, allocation",No,No,No,No,No,Yes,No
+121,Joint resource management & pricing for serverless edge offloading,2024,IEEE Transactions on Services Computing,"Resource Management, Cost","pricing, edge offloading",No,No,No,Yes,No,Yes,No
+122,ATOM: AI-powered sustainable resource management,2024,IEEE Transactions on Cloud Computing,"Resource Management, Energy Consumption","AI, sustainability",No,No,No,No,Yes,Yes,No
+123,On the power consumption of serverless functions: An evaluation,2022,IEEE Computers in Science & Engineering,Energy Consumption,"power consumption, OpenFaaS",No,No,No,No,Yes,No,Yes
+124,QoS fairness in serverless functions,2024,IEEE Transactions on Services Computing,Reliability & QoS,"QoS, fairness",No,Yes,No,No,No,No,No
+125,Security & privacy edge serverless anomaly detection,2023,ACM e-Energy Conference,Security & Privacy,"anomaly detection, privacy",No,No,Yes,No,No,No,No
+126,Privacy quantification of serverless computing,2024,Journal of Cloud Computing,Security & Privacy,privacy quantification,No,No,Yes,No,No,No,No
+127,GPU-oriented data transfer for serverless computing,2024,arXiv,"Performance, Resource Management","GPU transfer, performance",No,No,No,No,No,Yes,Yes
+128,Caching aided multi-tenant serverless computing,2024,arXiv,"Performance, Resource Management","caching, multi-tenancy",No,No,No,No,No,Yes,Yes
+129,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,2024,IEEE,"Reliability, Performance, Resource Management","reliability, efficiency, autoscaling, edge computing, latency, resource management",Yes,Yes,No,No,No,Yes,Yes
+130,Optimizing Cold Start Performance in Serverless Computing Environments,2024,IEEE,"Latency, Performance","cold start, latency, performance, reliability",Yes,Yes,No,No,No,No,Yes
+131,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,2024,IEEE,"Latency, Resource Management","low-latency, edge-cloud, scheduling, multi-armed bandit",Yes,No,No,No,No,Yes,No
+132,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,2024,ACM,"Latency, Performance","data transfer, latency, DPU, performance",Yes,No,No,No,No,No,Yes
+133,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,2024,IEEE,"Latency, Resource Management","cold start, container reuse, resource management",Yes,No,No,No,No,Yes,No
+134,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,2024,IEEE,"Performance, Resource Management","asynchronous programming, burst requests, performance",No,No,No,No,No,Yes,Yes
+135,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,2022,IEEE,"Resource Management, Performance","resource scaling, edge computing, auto-scaling",No,No,No,No,No,Yes,Yes
+136,Towards Quality of Experience Fairness for Serverless Functions,2024,IEEE,"QoS, Resource Management","QoS, fairness, resource allocation",No,Yes,No,No,No,Yes,No
+137,Enabling HPC Scientific Workflows for Serverless,2024,IEEE,"Resource Management, Performance","HPC, scientific workflows, resource management",No,No,No,No,No,Yes,Yes
+138,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,2024,IEEE,"Resource Management, Cost","dynamic scaling, resource management, cost optimization",No,No,No,Yes,No,Yes,No
+139,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,2024,IEEE,"Resource Management, Energy Consumption","AI, sustainable computing, edge computing, energy efficiency",No,No,No,No,Yes,Yes,No
+140,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",2023,IEEE,"Resource Management, Survey","resource management, survey, QoS",No,Yes,No,No,No,Yes,No
+141,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,2024,IEEE,"Resource Management, Cost","resource allocation, pricing, edge computing, energy efficiency",No,No,No,Yes,Yes,Yes,No
+142,Toward security quantification of serverless computing,2024,Springer,"Security, Privacy","security quantification, attack tree, privacy",No,No,Yes,No,No,No,No
+143,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,2022,IEEE Conference,Energy Consumption,"power consumption, energy efficiency, OpenFaaS",No,No,No,No,Yes,No,Yes
+144,A Performance Benchmark for Serverless Function Triggers,2022,IEEE IC2E,"Performance, Benchmarking","performance benchmark, function triggers, distributed tracing",No,No,No,No,No,No,Yes
+145,Designing Quality of Service aware Serverless Platforms,2024,IISc Thesis,QoS,"QoS, serverless platforms, resource allocation",No,Yes,No,No,No,Yes,No
+146,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,2024,IJRCAIT,"Energy Consumption, Cost","energy efficiency, cost effectiveness, green computing",No,No,No,Yes,Yes,No,No
+147,Practical Cloud Workloads for Serverless FaaS,2019,ACM,Benchmarking,"workloads, FaaS, benchmarking, evaluation",No,No,No,No,No,No,Yes
+148,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,2019,IEEE,Benchmarking,"benchmark, workloads, cloud functions",No,No,No,No,No,No,Yes
+149,Scalable Continuous Benchmarking on Cloud FaaS Platforms,2024,arXiv,Benchmarking,"continuous benchmarking, FaaS platforms, performance testing",No,No,No,No,No,No,Yes
+150,Comparison of FaaS Platform Performance in Private Clouds,2022,SCITEPRESS,"Performance, Benchmarking","FaaS platforms, private clouds, performance comparison",No,No,No,No,No,No,Yes
+151,Evaluating Serverless Function Deployment Models on AWS Lambda,2025,SCITEPRESS,"Performance, Cost","deployment models, AWS Lambda, performance, cost",No,No,No,Yes,No,No,Yes
+152,Serverless Computing & Function-as-a-Service (FaaS) Optimization,2023,TAJET,"Performance, Security","FaaS optimization, cold start, security, multi-cloud",Yes,No,Yes,No,No,No,Yes
+153,Cold Start Latency in Serverless Computing: A Systematic Review,2023,arXiv,"Latency, Survey","cold start latency, systematic review, serverless computing",Yes,No,No,No,No,No,No
+154,"Lightweight, Secure and Stateful Serverless Computing with PSL",2024,arXiv,"Security, Performance","lightweight computing, security, stateful serverless",No,No,Yes,No,No,No,Yes
+155,Caching Aided Multi-Tenant Serverless Computing,2024,arXiv,"Performance, Resource Management","caching, multi-tenant, serverless computing",No,No,No,No,No,Yes,Yes
+156,Towards Fast Setup and High Throughput of GPU Serverless Computing,2024,arXiv,Performance,"GPU serverless, fast setup, high throughput",No,No,No,No,No,No,Yes
+157,Serverless Actors with Short-Term Memory State for the Edge-Cloud Continuum,2024,arXiv,Edge Computing,"serverless actors, edge-cloud, memory state",No,No,No,No,No,No,No
+158,LLM-Based Misconfiguration Detection for AWS Serverless Computing,2024,arXiv,Security,"LLM, misconfiguration detection, AWS serverless",No,No,Yes,No,No,No,No
+159,Input-Based Ensemble-Learning Method for Dynamic Memory Configuration,2024,arXiv,Resource Management,"ensemble learning, memory configuration, serverless",No,No,No,No,No,Yes,No
+160,FaaSTube: Optimizing GPU-oriented Data Transfer for Serverless Computing,2024,arXiv,Performance,"GPU optimization, data transfer, serverless computing",No,No,No,No,No,No,Yes
+161,Serverless Computing for Scientific Applications,2023,arXiv,Applications,"scientific computing, serverless applications",No,No,No,No,No,No,No
+162,Efficiency in the Serverless Cloud Paradigm: Reusing and Approximation Aspects,2023,arXiv,Efficiency,"efficiency, function reuse, approximation",No,No,No,No,No,No,No
+163,Software Engineering for Serverless Computing,2022,arXiv,Software Engineering,"software engineering, serverless computing",No,No,No,No,No,No,No
+164,LaSS: Running Latency Sensitive Serverless Computations at the Edge,2021,arXiv,"Latency, Edge Computing","latency sensitive, edge computing, serverless",Yes,No,No,No,No,No,No
+165,Accelerating Serverless Computing by Harvesting Idle Resources,2022,arXiv,Resource Management,"resource harvesting, idle resources, acceleration",No,No,No,No,No,Yes,No
+166,In-Storage Domain-Specific Acceleration for Serverless Computing,2024,arXiv,Acceleration,"in-storage acceleration, domain-specific, serverless",No,No,No,No,No,No,No
+167,A Serverless Architecture for Efficient Monte Carlo Markov Chain Computation,2023,arXiv,Applications,"Monte Carlo, MCMC, serverless architecture",No,No,No,No,No,No,No
+168,Energy Efficiency Support for Software Defined Networks: a Serverless Computing Approach,2024,arXiv,Energy Consumption,"energy efficiency, SDN, serverless computing",No,No,No,No,Yes,No,No

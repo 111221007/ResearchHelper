@@ -1,0 +1,149 @@
+id,title,Latency,Reliability & QoS,Security & Privacy,Cost,Energy Consumption,Resource Management,Benchmarking & Evaluation
+1,"Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions",yes,no,no,no,no,no,no
+2,The Night Shift: Understanding Performance Variability of Cloud Serverless Platforms,yes,no,no,no,no,no,no
+3,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,no,no,no,no,no,no,yes
+4,"Benchmarking, Analysis, and Optimization of Serverless Function Snapshots",yes,no,no,no,no,no,no
+5,Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting,yes,no,no,no,no,no,no
+6,Firecracker: Lightweight Virtualization for Serverless Applications,yes,no,no,no,no,no,no
+7,SEUSS: Skip Redundant Paths to Make Serverless Fast,yes,no,no,yes,no,yes,no
+8,From Warm to Hot Starts: Leveraging Runtimes for the Serverless Era,yes,no,no,no,no,no,no
+9,Peeking Behind the Curtains of Serverless Platforms,no,no,no,no,no,no,yes
+10,Wukong: A Scalable and Locality-Enhanced Framework for Serverless Parallel Computing,no,no,no,no,no,no,no
+11,Atoll: A Scalable Low-Latency Serverless Platform,yes,no,no,no,no,no,no
+12,FaaStLane: Accelerating Function-as-a-Service Workflows,no,no,no,no,no,no,no
+13,SAND: Towards High-Performance Serverless Computing,yes,no,no,no,no,no,no
+14,TinyFaaS: A Lightweight FaaS Platform for Edge Environments,no,no,no,no,no,no,no
+15,Cold Start Latency Prediction Framework in Serverless Edge Computing,yes,no,no,no,no,no,no
+16,Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider,no,yes,no,yes,no,yes,yes
+17,Fault-tolerant and Transactional Stateful Serverless Workflows,no,yes,no,no,no,no,no
+18,CloudBurst: Stateful Functions-as-a-Service,no,yes,no,no,no,no,no
+19,A Fault-Tolerance Shim for Serverless Computing,no,yes,no,no,no,no,no
+20,OFC: An Opportunistic Caching System for FaaS Platforms,no,yes,no,no,no,no,no
+21,Valve: Securing Function Workflows on Serverless Computing Platforms,no,no,yes,no,no,no,no
+22,S-FaaS: Trustworthy and Accountable Function-as-a-Service Using Intel SGX,no,no,yes,no,no,no,no
+23,Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave,no,no,yes,no,no,no,no
+24,Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing,no,no,yes,no,no,no,no
+25,WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing,yes,no,yes,no,no,no,no
+26,Secure Serverless Computing Using Dynamic Information Flow Control,no,no,yes,no,no,no,no
+27,Workflow Integration Alleviates Identity and Access Management in Serverless Computing,no,no,yes,no,no,no,no
+28,Sequoia: Enabling Quality-of-Service in Serverless Computing,no,yes,no,no,no,yes,no
+29,QoS Aware FaaS Platform,no,yes,no,no,no,yes,no
+30,Cocoa: Cold Start Aware Capacity Planning for Function-as-a-Service Platforms,yes,yes,no,no,no,no,no
+31,Adaptive Function Launching Acceleration in Serverless Computing Platforms,no,yes,no,no,no,yes,no
+32,Caerus: NIMBLE Task Scheduling for Serverless Analytics,no,yes,no,no,no,yes,no
+33,Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms,no,yes,no,no,no,yes,no
+34,Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement,no,yes,no,yes,no,yes,no
+35,Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms,yes,yes,no,no,no,no,no
+36,Modeling and Optimization of Performance and Cost of Serverless Applications,no,no,no,yes,no,no,no
+37,Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement,no,no,no,yes,no,yes,no
+38,"Be Wary of the Economics of ""Serverless"" Cloud Computing",no,no,no,yes,no,no,no
+39,Optimal Pricing for Serverless Computing,no,no,no,yes,no,no,no
+40,Cost-Aware Migration to Functions-as-a-Service Architecture,no,no,no,yes,no,no,yes
+41,Predicting Performance and Cost of Serverless Functions with SAAF,no,no,no,yes,no,no,no
+42,FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes,no,no,no,yes,no,yes,no
+43,"CSPOT: Portable, Multi-Scale FaaS for IoT",no,no,no,yes,no,yes,no
+44,Reducing Environmental Impact with Sustainable Serverless Computing,no,no,no,yes,yes,no,no
+45,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,no,no,no,no,yes,no,no
+46,RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless,no,no,no,no,yes,yes,no
+47,Integrating Energy Consumption in the Development of Serverless Applications,no,no,no,no,yes,no,no
+48,Harvesting Idle Resources for Accelerating Serverless Computing,no,no,no,no,yes,yes,no
+49,A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions,no,no,no,no,no,yes,no
+50,"Serverless Computing: State-of-the-Art, Challenges and Opportunities",no,no,no,no,no,yes,no
+51,Scheduling Methods to Reduce Response Latency of Function as a Service,yes,no,no,no,no,yes,no
+52,DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures,no,no,no,no,no,yes,no
+53,Adaptive Container Provisioning for Serverless Workflows (SFL Compiler),no,no,no,no,no,yes,no
+54,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,no,no,no,no,no,yes,yes
+55,Sizeless: Predicting the Optimal Size of Serverless Functions,no,no,no,no,no,yes,no
+56,"Resource Management for Cloud Functions with Memory Tracing, Profiling and Autotuning",no,no,no,no,no,yes,no
+57,EMARS: Efficient Management and Allocation of Resources in Serverless,no,no,no,no,no,yes,no
+58,Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Serverless Execution,no,no,no,yes,no,yes,no
+59,Optimizing Serverless Computing: Introducing an Adaptive Function Placement Algorithm,no,no,no,no,no,yes,no
+60,AuctionWhisk: Auction-Inspired Approach for Function Placement in Serverless Fog Platforms,no,no,no,no,no,yes,no
+61,Comparison of FaaS Platform Performance in Private Clouds,no,no,no,no,no,no,yes
+62,ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms,no,no,no,no,no,no,yes
+63,Performance Evaluation of Serverless Applications and Infrastructures,no,no,no,no,no,no,yes
+,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,yes,yes,no,yes,yes,yes,no
+,Optimizing Cold Start Performance in Serverless Computing Environments,yes,yes,no,no,no,no,no
+,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,yes,no,no,no,no,yes,no
+,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,yes,no,no,no,no,no,no
+,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,yes,no,no,no,no,yes,no
+,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,no,no,no,no,no,yes,no
+,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,no,no,no,no,no,yes,no
+,Towards Quality of Experience Fairness for Serverless Functions,no,yes,no,no,no,yes,no
+,Enabling HPC Scientific Workflows for Serverless,no,no,no,no,no,yes,no
+,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,no,no,no,yes,no,yes,no
+,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,no,no,no,yes,yes,yes,no
+,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",no,yes,no,no,no,yes,no
+,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,no,no,no,yes,yes,yes,no
+,Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management,yes,no,no,no,no,yes,no
+,Toward security quantification of serverless computing,no,no,yes,no,no,no,no
+,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,no,no,no,yes,yes,no,no
+,A Performance Benchmark for Serverless Function Triggers,no,no,no,no,no,no,yes
+,Designing Quality of Service aware Serverless Platforms,no,yes,no,no,no,yes,no
+,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,no,no,no,yes,yes,no,no
+,Practical Cloud Workloads for Serverless FaaS,no,no,no,no,no,no,yes
+,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,no,no,no,no,no,no,yes
+,Analyzing Tail Latency in Serverless Clouds with STeLLAR,yes,no,no,no,no,no,yes
+,Benchmarking Serverless Computing Platforms,no,no,no,no,no,no,yes
+,Comparison of FaaS Platform Performance in Private Clouds,no,no,no,no,no,no,yes
+,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,no,no,no,no,no,no,yes
+,"Performance Evaluation Of Amazon's, Google's, And Microsoft's Serverless Functions: A Comparative Study",no,no,no,no,no,no,yes
+,Evaluating Serverless Function Deployment Models on AWS Lambda,no,no,no,yes,no,yes,no
+,Function-as-a-Service Benchmarking Framework,no,no,no,no,no,no,yes
+,Serverless Computing & Function-as-a-Service (FaaS) Optimization,yes,no,yes,yes,no,yes,no
+,Rise of the Planet of Serverless Computing: A Systematic Review,no,no,no,yes,no,yes,no
+,Towards Seamless Serverless Computing Across an Edge-Cloud Continuum,no,no,no,no,no,yes,no
+,An Application-Centric Benchmarking Framework for FaaS Platforms,no,no,no,no,no,no,yes
+,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,no,no,no,no,no,no,yes
+,Survey on serverless computing: Performance evaluation & benchmarking,no,no,no,no,no,no,yes
+,Function-as-a-Service Performance Evaluation: A Multivocal Literature Review,no,no,no,no,no,no,yes
+,Benchmarking Serverless Computing Platforms,no,no,no,no,no,no,yes
+,Serverless Computing: Current Trends and Open Problems – A Comprehensive Survey,no,no,no,no,no,no,yes
+,Toward security quantification of serverless computing,no,no,yes,no,no,no,no
+,A survey on cold-start latency approaches in serverless computing,yes,no,no,no,no,no,no
+,Optimizing cold start performance in serverless computing environments,yes,no,no,no,no,no,no
+,Low-latency edge-cloud serverless computing with a multi-armed bandit scheduler,yes,no,no,no,no,yes,no
+,FUYAO: DPU-enabled direct data transfer for serverless computing,yes,no,no,no,no,no,no
+,Tackling cold start in serverless computing with multi-level container reuse,yes,no,no,no,no,yes,no
+,Analyzing tail latency in serverless clouds with STeLLAR,yes,no,no,no,no,no,yes
+,EdgeFaaSBench: Benchmarking edge devices using serverless computing,no,no,no,no,no,no,yes
+,BenchFaaS: Benchmarking serverless functions in an edge computing network testbed,no,no,no,no,no,no,yes
+,Performance characterization of data-store event triggers for serverless computing,no,no,no,no,no,no,yes
+,SeBS-Flow: Benchmarking serverless cloud function workflows,no,no,no,no,no,no,yes
+,Accelerating serverless computing by harvesting idle resources,no,no,no,no,no,yes,yes
+,Scalable continuous benchmarking on cloud FaaS platforms,no,no,no,no,no,no,yes
+,Comparison of FaaS performance in private clouds,no,no,no,no,no,no,yes
+,Evaluating serverless deployment models on AWS Lambda,no,no,no,yes,no,no,yes
+,Function-as-a-Service benchmarking framework,no,no,no,no,no,no,yes
+,Benchmarking serverless computing: performance and usability,no,no,no,no,no,no,yes
+,Serverless architecture for efficient Monte Carlo MCMC computation,no,no,no,no,no,yes,no
+,Efficiency in the serverless paradigm: reuse & approximation aspects,no,no,no,no,no,yes,no
+,Resource management review in serverless computing,no,no,no,no,no,yes,no
+,Joint resource management & pricing for serverless edge offloading,no,no,no,yes,no,yes,no
+,ATOM: AI-powered sustainable resource management,no,no,no,no,yes,yes,no
+,On the power consumption of serverless functions: An evaluation,no,no,no,no,yes,no,no
+,QoS fairness in serverless functions,no,yes,no,no,no,no,no
+,Security & privacy edge serverless anomaly detection,no,no,yes,no,no,no,no
+,Privacy quantification of serverless computing,no,no,yes,no,no,no,no
+,GPU-oriented data transfer for serverless computing,no,no,no,no,no,yes,no
+,Caching aided multi-tenant serverless computing,no,no,no,no,no,yes,no
+1,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,yes,yes,no,yes,yes,yes,no
+2,Optimizing Cold Start Performance in Serverless Computing Environments,yes,yes,no,no,no,no,no
+3,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,yes,no,no,no,no,yes,no
+4,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,yes,no,no,no,no,no,no
+5,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,yes,no,no,no,no,yes,no
+6,FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing,no,no,no,no,no,yes,no
+7,KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge,no,no,no,no,no,yes,no
+8,Towards Quality of Experience Fairness for Serverless Functions,no,yes,no,no,no,yes,no
+9,Enabling HPC Scientific Workflows for Serverless,no,no,no,no,no,yes,no
+10,Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach,no,no,no,yes,no,yes,no
+11,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,no,no,no,yes,yes,yes,no
+12,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",no,yes,no,no,no,yes,no
+13,Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing,no,no,no,yes,yes,yes,no
+14,Toward security quantification of serverless computing,no,no,yes,no,no,no,no
+15,On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS,no,no,no,yes,yes,no,no
+16,A Performance Benchmark for Serverless Function Triggers,no,no,no,no,no,no,yes
+17,Designing Quality of Service aware Serverless Platforms,no,yes,no,no,no,yes,no
+18,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,no,no,no,yes,yes,no,no
+19,Practical Cloud Workloads for Serverless FaaS,no,no,no,no,no,no,yes
+20,FunctionBench: A Suite of Workloads for Serverless Cloud Function Service,no,no,no,no,no,no,yes

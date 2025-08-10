@@ -1,0 +1,47 @@
+paper_id,csv_title,bibtex_title,similarity_score,difference_type,notes,title_length_csv,title_length_bibtex
+ref3,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,SeBS-Flow: Benchmarking Serverless Cloud Function Workflows,0.488,DIFFERENT,Very different (48.8%),70,59
+ref5,Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting,Nuka: A Generic Engine with Millisecond Initialization for Serverless Computing,0.539,PARTIAL_MATCH,Partial similarity (53.9%),92,79
+ref6,Firecracker: Lightweight Virtualization for Serverless Applications,Microarchitectural Security of Firecracker VMM for Serverless Cloud Platforms,0.49,DIFFERENT,Very different (49.0%),67,77
+ref7,SEUSS: Skip Redundant Paths to Make Serverless Fast,On k-skip shortest paths,0.411,DIFFERENT,Very different (41.1%),51,24
+ref8,From Warm to Hot Starts: Leveraging Runtimes for the Serverless Era,From warm to hot starts,0.517,PARTIAL_MATCH,Partial similarity (51.7%),67,23
+ref9,Peeking Behind the Curtains of Serverless Platforms,Peeking Behind the Curtains,0.692,PARTIAL_MATCH,Partial similarity (69.2%),51,27
+ref10,Wukong: A Scalable and Locality-Enhanced Framework for Serverless Parallel Computing,SMPI: Scalable Serverless MPI Computing,0.533,PARTIAL_MATCH,Partial similarity (53.3%),84,39
+ref12,FaaStLane: Accelerating Function-as-a-Service Workflows,HybridSFC: Accelerating Service Function Chains with Parallelism,0.526,PARTIAL_MATCH,Partial similarity (52.6%),55,64
+ref13,SAND: Towards High-Performance Serverless Computing,Serverless High-Performance Computing over Cloud,0.604,PARTIAL_MATCH,Partial similarity (60.4%),51,48
+ref16,Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider,Optimizing Simultaneous Autoscaling for Serverless Cloud Computing,0.393,DIFFERENT,Very different (39.3%),103,66
+ref17,Fault-tolerant and Transactional Stateful Serverless Workflows,Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing,0.565,PARTIAL_MATCH,Partial similarity (56.5%),62,66
+ref20,OFC: An Opportunistic Caching System for FaaS Platforms,Benchmarking parallelism in FaaS platforms,0.521,PARTIAL_MATCH,Partial similarity (52.1%),55,42
+ref22,S-FaaS: Trustworthy and Accountable Function-as-a-Service Using Intel SGX,Protecting OpenFlow using Intel SGX,0.447,DIFFERENT,Very different (44.7%),73,35
+ref24,Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing,Efficient Fault Tolerance for Stateful Serverless Computing with Asymmetric Logging,0.506,PARTIAL_MATCH,Partial similarity (50.6%),72,83
+ref28,Sequoia: Enabling Quality-of-Service in Serverless Computing,Enabling Serverless Sky Computing,0.644,PARTIAL_MATCH,Partial similarity (64.4%),60,33
+ref32,Caerus: NIMBLE Task Scheduling for Serverless Analytics,ACTS: Autonomous Cost-Efficient Task Orchestration for Serverless Analytics,0.661,PARTIAL_MATCH,Partial similarity (66.1%),55,75
+ref40,Cost-Aware Migration to Functions-as-a-Service Architecture,Cost-aware service function chain migration in satellite-ground integrated networks,0.441,DIFFERENT,Very different (44.1%),59,83
+ref42,FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes,Prediction-driven resource provisioning for serverless container runtimes,0.68,PARTIAL_MATCH,Partial similarity (68.0%),79,73
+ref43,"CSPOT: Portable, Multi-Scale FaaS for IoT",CSPOT,0.233,DIFFERENT,Very different (23.3%),41,5
+ref48,Harvesting Idle Resources for Accelerating Serverless Computing,Accelerating Serverless Computing by Harvesting Idle Resources,0.528,PARTIAL_MATCH,Partial similarity (52.8%),63,62
+ref53,Adaptive Container Provisioning for Serverless Workflows (SFL Compiler),ACPM: adaptive container provisioning model to mitigate serverless cold-start,0.681,PARTIAL_MATCH,Partial similarity (68.1%),71,77
+ref55,Sizeless: Predicting the Optimal Size of Serverless Functions,Predicting Performance and Cost of Serverless Computing Functions with SAAF,0.578,PARTIAL_MATCH,Partial similarity (57.8%),61,75
+ref59,Optimizing Serverless Computing: Introducing an Adaptive Function Placement Algorithm,An adaptive function placement in serverless computing,0.478,DIFFERENT,Very different (47.8%),85,54
+ref63,Performance Evaluation of Serverless Applications and Infrastructures,Serverless Computing Performance Evaluation,0.393,DIFFERENT,Very different (39.3%),69,43
+ref81,Designing Quality of Service aware Serverless Platforms,Keynote: Designing Serverless Platforms to Support Emerging Applications,0.476,DIFFERENT,Very different (47.6%),55,72
+ref82,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,"FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing",0.671,PARTIAL_MATCH,Partial similarity (67.1%),56,102
+ref88,SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing,SeBS-Flow: Benchmarking Serverless Cloud Function Workflows,0.488,DIFFERENT,Very different (48.8%),70,59
+ref89,"Performance Evaluation Of Amazon's, Google's, And Microsoft's Serverless Functions: A Comparative Study","Comparative Study of Cloud Services Offered by Amazon, Microsoft and Google",0.199,DIFFERENT,Very different (19.9%),103,75
+ref97,Survey on serverless computing: Performance evaluation & benchmarking,Performance Benchmarking of Serverless Computing Platforms,0.496,DIFFERENT,Very different (49.6%),69,58
+ref117,Benchmarking serverless computing: performance and usability,Performance Benchmarking of Serverless Computing Platforms,0.684,PARTIAL_MATCH,Partial similarity (68.4%),60,58
+ref120,Resource management review in serverless computing,"Resource Management in Serverless Computing - Review, Research Challenges, and Prospects",0.637,PARTIAL_MATCH,Partial similarity (63.7%),50,88
+ref122,ATOM: AI-powered sustainable resource management,ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments,0.681,PARTIAL_MATCH,Partial similarity (68.1%),48,91
+ref124,QoS fairness in serverless functions,Towards Quality of Experience Fairness for Serverless Functions,0.667,PARTIAL_MATCH,Partial similarity (66.7%),36,63
+ref125,Security & privacy edge serverless anomaly detection,Privacy-preserving Real-time Anomaly Detection Using Edge Computing,0.569,PARTIAL_MATCH,Partial similarity (56.9%),52,67
+ref127,GPU-oriented data transfer for serverless computing,GPU Enabled Serverless Computing Framework,0.609,PARTIAL_MATCH,Partial similarity (60.9%),51,42
+ref128,Caching aided multi-tenant serverless computing,Multi-Agent Learning-based Package Caching in Serverless Edge Computing,0.539,PARTIAL_MATCH,Partial similarity (53.9%),47,71
+ref145,Designing Quality of Service aware Serverless Platforms,Keynote: Designing Serverless Platforms to Support Emerging Applications,0.476,DIFFERENT,Very different (47.6%),55,72
+ref146,ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING,"FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing",0.671,PARTIAL_MATCH,Partial similarity (67.1%),56,102
+ref154,"Lightweight, Secure and Stateful Serverless Computing with PSL","Stateful Serverless Computing with
+            <scp>Crucial</scp>",0.679,PARTIAL_MATCH,Partial similarity (67.9%),62,65
+ref155,Caching Aided Multi-Tenant Serverless Computing,Multi-Agent Learning-based Package Caching in Serverless Edge Computing,0.539,PARTIAL_MATCH,Partial similarity (53.9%),47,71
+ref156,Towards Fast Setup and High Throughput of GPU Serverless Computing,EDAS: Enabling Fast Data Loading for GPU Serverless Computing,0.619,PARTIAL_MATCH,Partial similarity (61.9%),66,61
+ref160,FaaSTube: Optimizing GPU-oriented Data Transfer for Serverless Computing,Optimizing Serverless Computing,0.614,PARTIAL_MATCH,Partial similarity (61.4%),72,31
+ref163,Software Engineering for Serverless Computing,Serverless Computing and Data Engineering,0.465,DIFFERENT,Very different (46.5%),45,41
+ref164,LaSS: Running Latency Sensitive Serverless Computations at the Edge,Operating Latency Sensitive Applications on Public Serverless Edge Cloud Platforms,0.514,PARTIAL_MATCH,Partial similarity (51.4%),67,82
+ref168,Energy Efficiency Support for Software Defined Networks: a Serverless Computing Approach,A Serverless Computing Platform for Software Defined Networks,0.5,PARTIAL_MATCH,Partial similarity (50.0%),88,61

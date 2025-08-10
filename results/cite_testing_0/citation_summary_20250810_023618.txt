@@ -1,0 +1,93 @@
+Citation Generation Summary
+==================================================
+
+Total papers processed: 168
+BibTeX file: all_papers_citations_20250810_023618.bib
+RIS file: all_papers_citations_20250810_023618.ris
+Generated on: 2025-08-10 02:36:18
+
+Papers by category:
+--------------------
+Benchmarking & Evaluation: 13 papers
+Benchmarking: 9 papers
+Performance, Benchmarking: 8 papers
+Latency, Performance: 6 papers
+Latency, Resource Management: 6 papers
+Performance, Resource Management: 5 papers
+Resource Management, Performance: 5 papers
+Resource Management, Cost: 5 papers
+ResourceMgmt, Performance: 5 papers
+Resource Management: 4 papers
+Energy Consumption: 4 papers
+Cost, Performance: 4 papers
+Security, Privacy: 4 papers
+Performance, Latency: 4 papers
+QoS, Scheduling: 3 papers
+Security & Privacy: 3 papers
+Resource Management, Energy Consumption: 3 papers
+QoS, Performance: 3 papers
+Performance: 2 papers
+QoS: 2 papers
+Energy, Performance: 2 papers
+Energy Consumption, Cost: 2 papers
+Performance, Cold Start: 2 papers
+Performance, Cost: 2 papers
+Performance, Security: 2 papers
+Edge Computing: 2 papers
+Resource Management, Survey: 2 papers
+ResourceMgmt, Survey: 2 papers
+QoS, Resource Management: 2 papers
+Security, Performance: 2 papers
+Applications: 2 papers
+Efficiency: 1 papers
+Resource Management, Latency: 1 papers
+Software Engineering: 1 papers
+Latency, Edge Computing: 1 papers
+Benchmarking & Evaluation, Cost: 1 papers
+Security: 1 papers
+Latency, Benchmarking & Evaluation: 1 papers
+Survey: 1 papers
+Latency, Survey: 1 papers
+Survey, Performance: 1 papers
+Reliability, Performance, Resource Management: 1 papers
+Reliability & QoS: 1 papers
+Latency: 1 papers
+Latency, Benchmarking: 1 papers
+ResourceMgmt: 1 papers
+Reliability, Performance: 1 papers
+Security, Model: 1 papers
+Performance, Startup: 1 papers
+Performance, Isolation: 1 papers
+Performance, Optimization: 1 papers
+Performance, Measurement: 1 papers
+Performance, Parallelism: 1 papers
+Performance, Workflow: 1 papers
+Performance, Edge: 1 papers
+Reliability, Workload: 1 papers
+Reliability, Workflow: 1 papers
+Reliability, Stateful: 1 papers
+Reliability: 1 papers
+Reliability, Caching: 1 papers
+Security, Workflow: 1 papers
+Security, Isolation: 1 papers
+Security, IAM: 1 papers
+Benchmarking, Performance: 1 papers
+QoS, ResourceMgmt: 1 papers
+QoS, Cost: 1 papers
+Cost: 1 papers
+Cost, Theory: 1 papers
+Cost, Migration: 1 papers
+Cost, ResourceMgmt: 1 papers
+Energy, Sustainability: 1 papers
+Energy, ResourceMgmt: 1 papers
+Energy, Tooling: 1 papers
+ResourceMgmt, Multi-cloud: 1 papers
+ResourceMgmt, Benchmarking: 1 papers
+Performance, Variability: 1 papers
+ResourceMgmt, Cost: 1 papers
+ResourceMgmt, Scheduling: 1 papers
+Acceleration: 1 papers
+
+Citation keys: ref1 to ref168
+
+Note: All citations use 'Anonymous' as author since individual author information was not available in the source data.

@@ -1,0 +1,1484 @@
+Provider: Research Helper
+Database: Serverless Computing Papers
+Content: Bibliography (168 papers)
+
+TY  - JOUR
+TI  - Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions
+AU  - Anonymous
+JO  - Computing Surveys
+PY  - 2024
+KW  - Performance, Latency
+AB  - Keywords: cold start, survey, taxonomy
+ER  - 
+
+TY  - CONF
+TI  - The Night Shift: Understanding Performance Variability of Cloud Serverless Platforms
+AU  - Anonymous
+T2  - SESAME '23 Workshop (ACM)
+PY  - 2023
+KW  - Performance, Variability
+AB  - Keywords: performance variability, diurnal pattern, cold start
+ER  - 
+
+TY  - UNPB
+TI  - SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing
+AU  - Anonymous
+JO  - arXiv (Benchmarking Suite)
+PY  - 2020
+KW  - Performance, Benchmarking
+AB  - Keywords: benchmark suite, performance evaluation
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking, Analysis, and Optimization of Serverless Function Snapshots
+AU  - Anonymous
+JO  - ASPLOS
+PY  - 2021
+KW  - Performance, Startup
+AB  - Keywords: snapshot, Firecracker, cold start
+ER  - 
+
+TY  - JOUR
+TI  - Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting
+AU  - Anonymous
+JO  - ASPLOS
+PY  - 2020
+KW  - Performance, Latency
+AB  - Keywords: cold start, kernel, quick boot
+ER  - 
+
+TY  - JOUR
+TI  - Firecracker: Lightweight Virtualization for Serverless Applications
+AU  - Anonymous
+JO  - USENIX NSDI
+PY  - 2020
+KW  - Performance, Isolation
+AB  - Keywords: microVM, isolation, startup time
+ER  - 
+
+TY  - JOUR
+TI  - SEUSS: Skip Redundant Paths to Make Serverless Fast
+AU  - Anonymous
+JO  - EuroSys
+PY  - 2020
+KW  - Performance, Optimization
+AB  - Keywords: optimizing platform, latency
+ER  - 
+
+TY  - JOUR
+TI  - From Warm to Hot Starts: Leveraging Runtimes for the Serverless Era
+AU  - Anonymous
+JO  - HotOS
+PY  - 2021
+KW  - Performance, Cold Start
+AB  - Keywords: runtime reuse, warm starts
+ER  - 
+
+TY  - JOUR
+TI  - Peeking Behind the Curtains of Serverless Platforms
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2018
+KW  - Performance, Measurement
+AB  - Keywords: measurement study, AWS Lambda
+ER  - 
+
+TY  - JOUR
+TI  - Wukong: A Scalable and Locality-Enhanced Framework for Serverless Parallel Computing
+AU  - Anonymous
+JO  - SoCC
+PY  - 2020
+KW  - Performance, Parallelism
+AB  - Keywords: parallel computing, locality
+ER  - 
+
+TY  - JOUR
+TI  - Atoll: A Scalable Low-Latency Serverless Platform
+AU  - Anonymous
+JO  - SoCC
+PY  - 2021
+KW  - Performance, Latency
+AB  - Keywords: platform design, low latency
+ER  - 
+
+TY  - JOUR
+TI  - FaaStLane: Accelerating Function-as-a-Service Workflows
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2021
+KW  - Performance, Workflow
+AB  - Keywords: workflow, caching, DAG
+ER  - 
+
+TY  - JOUR
+TI  - SAND: Towards High-Performance Serverless Computing
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2018
+KW  - Performance, Cold Start
+AB  - Keywords: sandbox, warm pool
+ER  - 
+
+TY  - JOUR
+TI  - TinyFaaS: A Lightweight FaaS Platform for Edge Environments
+AU  - Anonymous
+JO  - Fog Computing
+PY  - 2020
+KW  - Performance, Edge
+AB  - Keywords: edge computing, lightweight FaaS
+ER  - 
+
+TY  - JOUR
+TI  - Cold Start Latency Prediction Framework in Serverless Edge Computing
+AU  - Anonymous
+JO  - JSAC
+PY  - 2024
+KW  - Performance, Latency
+AB  - Keywords: edge, cold start, prediction
+ER  - 
+
+TY  - JOUR
+TI  - Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2020
+KW  - Reliability, Workload
+AB  - Keywords: workload analysis, optimization
+ER  - 
+
+TY  - JOUR
+TI  - Fault-tolerant and Transactional Stateful Serverless Workflows
+AU  - Anonymous
+JO  - USENIX OSDI
+PY  - 2020
+KW  - Reliability, Workflow
+AB  - Keywords: fault tolerance, transactions, stateful
+ER  - 
+
+TY  - JOUR
+TI  - CloudBurst: Stateful Functions-as-a-Service
+AU  - Anonymous
+JO  - VLDB
+PY  - 2020
+KW  - Reliability, Stateful
+AB  - Keywords: stateful FaaS, storage
+ER  - 
+
+TY  - JOUR
+TI  - A Fault-Tolerance Shim for Serverless Computing
+AU  - Anonymous
+JO  - EuroSys
+PY  - 2020
+KW  - Reliability
+AB  - Keywords: fault tolerance, shim
+ER  - 
+
+TY  - JOUR
+TI  - OFC: An Opportunistic Caching System for FaaS Platforms
+AU  - Anonymous
+JO  - EuroSys
+PY  - 2021
+KW  - Reliability, Caching
+AB  - Keywords: edge caching, FaaS
+ER  - 
+
+TY  - CONF
+TI  - Valve: Securing Function Workflows on Serverless Computing Platforms
+AU  - Anonymous
+T2  - WWW Conference
+PY  - 2020
+KW  - Security, Workflow
+AB  - Keywords: security, workflow, data flow control
+ER  - 
+
+TY  - CONF
+TI  - S-FaaS: Trustworthy and Accountable Function-as-a-Service Using Intel SGX
+AU  - Anonymous
+T2  - Cloud Security Workshop
+PY  - 2019
+KW  - Security, Privacy
+AB  - Keywords: SGX, confidentiality
+ER  - 
+
+TY  - JOUR
+TI  - Se-Lambda: Securing Privacy-Sensitive Serverless Applications Using SGX Enclave
+AU  - Anonymous
+JO  - SecureComm
+PY  - 2018
+KW  - Security, Privacy
+AB  - Keywords: SGX, enclave, privacy
+ER  - 
+
+TY  - JOUR
+TI  - Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2020
+KW  - Security, Isolation
+AB  - Keywords: WebAssembly, isolation, stateful
+ER  - 
+
+TY  - JOUR
+TI  - WLEC: A Not So Cold Architecture to Mitigate Cold Start Problem in Serverless Computing
+AU  - Anonymous
+JO  - IC2E
+PY  - 2020
+KW  - Security, Performance
+AB  - Keywords: cold start, architecture
+ER  - 
+
+TY  - JOUR
+TI  - Secure Serverless Computing Using Dynamic Information Flow Control
+AU  - Anonymous
+JO  - OOPSLA
+PY  - 2018
+KW  - Security, Model
+AB  - Keywords: information flow, security model
+ER  - 
+
+TY  - JOUR
+TI  - Workflow Integration Alleviates Identity and Access Management in Serverless Computing
+AU  - Anonymous
+JO  - ACSAC
+PY  - 2020
+KW  - Security, IAM
+AB  - Keywords: identity management, security
+ER  - 
+
+TY  - JOUR
+TI  - Sequoia: Enabling Quality-of-Service in Serverless Computing
+AU  - Anonymous
+JO  - SoCC
+PY  - 2020
+KW  - QoS, Scheduling
+AB  - Keywords: QoS, scheduling, isolation
+ER  - 
+
+TY  - JOUR
+TI  - QoS Aware FaaS Platform
+AU  - Anonymous
+JO  - /ACM CCGrid
+PY  - 2021
+KW  - QoS, Scheduling
+AB  - Keywords: QoS, FaaS scheduling
+ER  - 
+
+TY  - JOUR
+TI  - Cocoa: Cold Start Aware Capacity Planning for Function-as-a-Service Platforms
+AU  - Anonymous
+JO  - MASCOTS
+PY  - 2020
+KW  - QoS, Performance
+AB  - Keywords: capacity planning, cold start
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Function Launching Acceleration in Serverless Computing Platforms
+AU  - Anonymous
+JO  - ICPADS
+PY  - 2019
+KW  - QoS, Performance
+AB  - Keywords: pre-warm, scheduling
+ER  - 
+
+TY  - JOUR
+TI  - Caerus: NIMBLE Task Scheduling for Serverless Analytics
+AU  - Anonymous
+JO  - USENIX NSDI
+PY  - 2021
+KW  - QoS, Scheduling
+AB  - Keywords: analytics, scheduling, performance
+ER  - 
+
+TY  - JOUR
+TI  - Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms
+AU  - Anonymous
+JO  - SoCC
+PY  - 2021
+KW  - QoS, ResourceMgmt
+AB  - Keywords: DAG, autoscaling
+ER  - 
+
+TY  - JOUR
+TI  - Spock: Exploiting Serverless Functions for SLO and Cost Aware Resource Procurement
+AU  - Anonymous
+JO  - CLOUD
+PY  - 2019
+KW  - QoS, Cost
+AB  - Keywords: SLO, cost optimization
+ER  - 
+
+TY  - JOUR
+TI  - Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms
+AU  - Anonymous
+JO  - ICDCS
+PY  - 2021
+KW  - QoS, Performance
+AB  - Keywords: scheduler, cold start
+ER  - 
+
+TY  - JOUR
+TI  - Modeling and Optimization of Performance and Cost of Serverless Applications
+AU  - Anonymous
+JO  - TPDS
+PY  - 2020
+KW  - Cost, Performance
+AB  - Keywords: performance-cost model
+ER  - 
+
+TY  - JOUR
+TI  - Costless: Optimizing Cost of Serverless Computing through Function Fusion and Placement
+AU  - Anonymous
+JO  - /ACM SEC
+PY  - 2018
+KW  - Cost, Performance
+AB  - Keywords: cost optimization, fusion
+ER  - 
+
+TY  - JOUR
+TI  - Be Wary of the Economics of "Serverless" Cloud Computing
+AU  - Anonymous
+JO  - Cloud Computing
+PY  - 2017
+KW  - Cost
+AB  - Keywords: economics, pricing
+ER  - 
+
+TY  - JOUR
+TI  - Optimal Pricing for Serverless Computing
+AU  - Anonymous
+JO  - GLOBECOM
+PY  - 2019
+KW  - Cost, Theory
+AB  - Keywords: pricing model, economics
+ER  - 
+
+TY  - CONF
+TI  - Cost-Aware Migration to Functions-as-a-Service Architecture
+AU  - Anonymous
+T2  - ECSA Workshops
+PY  - 2021
+KW  - Cost, Migration
+AB  - Keywords: refactoring, cost analysis
+ER  - 
+
+TY  - JOUR
+TI  - Predicting Performance and Cost of Serverless Functions with SAAF
+AU  - Anonymous
+JO  - DASC
+PY  - 2020
+KW  - Cost, Performance
+AB  - Keywords: performance prediction, cost model
+ER  - 
+
+TY  - JOUR
+TI  - FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes
+AU  - Anonymous
+JO  - USENIX ATC
+PY  - 2021
+KW  - Cost, Performance
+AB  - Keywords: provisioning, startup, cost
+ER  - 
+
+TY  - JOUR
+TI  - CSPOT: Portable, Multi-Scale FaaS for IoT
+AU  - Anonymous
+JO  - /IEEE SEC
+PY  - 2019
+KW  - Cost, ResourceMgmt
+AB  - Keywords: IoT, edge, cost
+ER  - 
+
+TY  - JOUR
+TI  - Reducing Environmental Impact with Sustainable Serverless Computing
+AU  - Anonymous
+JO  - MDPI Sustainability
+PY  - 2025
+KW  - Energy, Sustainability
+AB  - Keywords: energy efficiency, green IT
+ER  - 
+
+TY  - CONF
+TI  - On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS
+AU  - Anonymous
+T2  - CIFS Workshop
+PY  - 2022
+KW  - Energy, Performance
+AB  - Keywords: power consumption, OpenFaaS
+ER  - 
+
+TY  - JOUR
+TI  - RAEF: Energy-efficient Resource Allocation through Energy Fungibility in Serverless
+AU  - Anonymous
+JO  - ICPADS
+PY  - 2021
+KW  - Energy, ResourceMgmt
+AB  - Keywords: energy allocation, RL scheduler
+ER  - 
+
+TY  - JOUR
+TI  - Integrating Energy Consumption in the Development of Serverless Applications
+AU  - Anonymous
+JO  - Journal of Systems Architecture
+PY  - 2023
+KW  - Energy, Tooling
+AB  - Keywords: energy monitoring, development
+ER  - 
+
+TY  - CONF
+TI  - Harvesting Idle Resources for Accelerating Serverless Computing
+AU  - Anonymous
+T2  - The Web Conference (WWW)
+PY  - 2022
+KW  - Energy, Performance
+AB  - Keywords: idle resources, energy reuse
+ER  - 
+
+TY  - JOUR
+TI  - A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions
+AU  - Anonymous
+JO  - Computing Surveys
+PY  - 2021
+KW  - ResourceMgmt, Survey
+AB  - Keywords: resource management, taxonomy
+ER  - 
+
+TY  - JOUR
+TI  - Serverless Computing: State-of-the-Art, Challenges and Opportunities
+AU  - Anonymous
+JO  - TSC (Early Access)
+PY  - 2022
+KW  - ResourceMgmt, Survey
+AB  - Keywords: survey, resource challenges
+ER  - 
+
+TY  - JOUR
+TI  - Scheduling Methods to Reduce Response Latency of Function as a Service
+AU  - Anonymous
+JO  - SBAC-PAD
+PY  - 2020
+KW  - ResourceMgmt, Performance
+AB  - Keywords: scheduling, latency
+ER  - 
+
+TY  - JOUR
+TI  - DistributedFaaS: Execution of Containerized Serverless Applications in Multi-Cloud Infrastructures
+AU  - Anonymous
+JO  - 9th CLOSER
+PY  - 2019
+KW  - ResourceMgmt, Multi-cloud
+AB  - Keywords: multi-cloud, scheduling
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Container Provisioning for Serverless Workflows (SFL Compiler)
+AU  - Anonymous
+JO  - WoSC '21
+PY  - 2021
+KW  - ResourceMgmt, Performance
+AB  - Keywords: workflow, stateful functions
+ER  - 
+
+TY  - JOUR
+TI  - FunctionBench: A Suite of Workloads for Serverless Cloud Function Service
+AU  - Anonymous
+JO  - CLOUD
+PY  - 2019
+KW  - ResourceMgmt, Benchmarking
+AB  - Keywords: workloads, benchmark
+ER  - 
+
+TY  - JOUR
+TI  - Sizeless: Predicting the Optimal Size of Serverless Functions
+AU  - Anonymous
+JO  - Middleware
+PY  - 2021
+KW  - ResourceMgmt, Performance
+AB  - Keywords: autoscaling, memory sizing
+ER  - 
+
+TY  - CONF
+TI  - Resource Management for Cloud Functions with Memory Tracing, Profiling and Autotuning
+AU  - Anonymous
+T2  - 6th Intl. Workshop on Serverless Computing
+PY  - 2020
+KW  - ResourceMgmt, Performance
+AB  - Keywords: memory tuning, profiling
+ER  - 
+
+TY  - JOUR
+TI  - EMARS: Efficient Management and Allocation of Resources in Serverless
+AU  - Anonymous
+JO  - CLOUD
+PY  - 2018
+KW  - ResourceMgmt
+AB  - Keywords: resource allocation, FaaS
+ER  - 
+
+TY  - JOUR
+TI  - Skedulix: Hybrid Cloud Scheduling for Cost-Efficient Serverless Execution
+AU  - Anonymous
+JO  - CLOUD
+PY  - 2020
+KW  - ResourceMgmt, Cost
+AB  - Keywords: hybrid cloud, scheduling
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Serverless Computing: Introducing an Adaptive Function Placement Algorithm
+AU  - Anonymous
+JO  - CASCON
+PY  - 2019
+KW  - ResourceMgmt, Performance
+AB  - Keywords: function placement, edge vs cloud
+ER  - 
+
+TY  - JOUR
+TI  - AuctionWhisk: Auction-Inspired Approach for Function Placement in Serverless Fog Platforms
+AU  - Anonymous
+JO  - Software: Practice & Experience
+PY  - 2022
+KW  - ResourceMgmt, Scheduling
+AB  - Keywords: fog computing, auction scheduling
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of FaaS Platform Performance in Private Clouds
+AU  - Anonymous
+JO  - 12th CLOSER (SciTePress)
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: OpenFaaS, OpenWhisk, private cloud
+ER  - 
+
+TY  - UNPB
+TI  - ElastiBench: Scalable Continuous Benchmarking on Cloud FaaS Platforms
+AU  - Anonymous
+JO  - IC2E (arXiv preprint)
+PY  - 2024
+KW  - Benchmarking, Performance
+AB  - Keywords: continuous benchmarking, scalability
+ER  - 
+
+TY  - JOUR
+TI  - Performance Evaluation of Serverless Applications and Infrastructures
+AU  - Anonymous
+JO  - PhD Thesis (Chalmers)
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: benchmark survey, reproducibility
+ER  - 
+
+TY  - JOUR
+TI  - RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Reliability, Performance
+AB  - Keywords: reliability, efficiency, autoscaling, edge computing, latency, resource management
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Cold Start Performance in Serverless Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: cold start, latency, performance, reliability
+ER  - 
+
+TY  - JOUR
+TI  - A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: low-latency, edge-cloud, scheduling, multi-armed bandit
+ER  - 
+
+TY  - JOUR
+TI  - FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: data transfer, latency, DPU, performance
+ER  - 
+
+TY  - JOUR
+TI  - Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: cold start, container reuse, resource management
+ER  - 
+
+TY  - JOUR
+TI  - FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Performance, Resource Management
+AB  - Keywords: asynchronous programming, burst requests, performance, resource management
+ER  - 
+
+TY  - JOUR
+TI  - KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge
+AU  - Anonymous
+PY  - 2022
+KW  - Resource Management, Performance
+AB  - Keywords: resource scaling, edge computing, auto-scaling
+ER  - 
+
+TY  - JOUR
+TI  - Towards Quality of Experience Fairness for Serverless Functions
+AU  - Anonymous
+PY  - 2024
+KW  - QoS, Resource Management
+AB  - Keywords: QoS, fairness, resource allocation
+ER  - 
+
+TY  - JOUR
+TI  - Enabling HPC Scientific Workflows for Serverless
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Performance
+AB  - Keywords: HPC, scientific workflows, resource management
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Cost
+AB  - Keywords: dynamic scaling, resource management, cost optimization
+ER  - 
+
+TY  - JOUR
+TI  - ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Energy Consumption
+AB  - Keywords: AI, sustainable computing, edge computing, energy efficiency
+ER  - 
+
+TY  - JOUR
+TI  - Resource Management in Serverless Computing - Review, Research Challenges, and Prospects
+AU  - Anonymous
+PY  - 2023
+KW  - Resource Management, Survey
+AB  - Keywords: resource management, survey, QoS
+ER  - 
+
+TY  - JOUR
+TI  - Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Cost
+AB  - Keywords: resource allocation, pricing, edge computing, energy efficiency
+ER  - 
+
+TY  - JOUR
+TI  - Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Latency
+AB  - Keywords: edge computing, offloading, resource management, latency
+ER  - 
+
+TY  - JOUR
+TI  - Toward security quantification of serverless computing
+AU  - Anonymous
+JO  - Springer
+PY  - 2024
+KW  - Security, Privacy
+AB  - Keywords: security quantification, attack tree, privacy
+ER  - 
+
+TY  - CONF
+TI  - On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS
+AU  - Anonymous
+T2  - Conference
+PY  - 2022
+KW  - Energy Consumption
+AB  - Keywords: power consumption, energy efficiency, OpenFaaS
+ER  - 
+
+TY  - JOUR
+TI  - A Performance Benchmark for Serverless Function Triggers
+AU  - Anonymous
+JO  - IC2E
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: performance benchmark, function triggers, distributed tracing
+ER  - 
+
+TY  - JOUR
+TI  - Designing Quality of Service aware Serverless Platforms
+AU  - Anonymous
+JO  - IISc Thesis
+PY  - 2024
+KW  - QoS
+AB  - Keywords: QoS, serverless platforms, resource allocation
+ER  - 
+
+TY  - JOUR
+TI  - ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING
+AU  - Anonymous
+JO  - IJRCAIT
+PY  - 2024
+KW  - Energy Consumption, Cost
+AB  - Keywords: energy efficiency, cost effectiveness, green computing
+ER  - 
+
+TY  - JOUR
+TI  - Practical Cloud Workloads for Serverless FaaS
+AU  - Anonymous
+PY  - 2019
+KW  - Benchmarking
+AB  - Keywords: workloads, FaaS, benchmarking, evaluation
+ER  - 
+
+TY  - JOUR
+TI  - FunctionBench: A Suite of Workloads for Serverless Cloud Function Service
+AU  - Anonymous
+PY  - 2019
+KW  - Benchmarking
+AB  - Keywords: benchmark, workloads, cloud functions
+ER  - 
+
+TY  - JOUR
+TI  - Analyzing Tail Latency in Serverless Clouds with STeLLAR
+AU  - Anonymous
+PY  - 2021
+KW  - Latency, Benchmarking
+AB  - Keywords: tail latency, performance characterization, benchmarking
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking Serverless Computing Platforms
+AU  - Anonymous
+JO  - Springer
+PY  - 2020
+KW  - Benchmarking
+AB  - Keywords: benchmarking, performance evaluation, cloud platforms
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of FaaS Platform Performance in Private Clouds
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: FaaS platforms, private clouds, performance comparison
+ER  - 
+
+TY  - JOUR
+TI  - SeBS: A Serverless Benchmark Suite for Function-as-a-Service Computing
+AU  - Anonymous
+JO  - Middleware
+PY  - 2021
+KW  - Benchmarking
+AB  - Keywords: benchmark suite, FaaS, performance evaluation
+ER  - 
+
+TY  - JOUR
+TI  - Performance Evaluation Of Amazon's, Google's, And Microsoft's Serverless Functions: A Comparative Study
+AU  - Anonymous
+JO  - IJSTR
+PY  - 2021
+KW  - Performance, Benchmarking
+AB  - Keywords: AWS Lambda, Google Cloud Functions, Azure Functions, performance comparison
+ER  - 
+
+TY  - JOUR
+TI  - Evaluating Serverless Function Deployment Models on AWS Lambda
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2025
+KW  - Performance, Cost
+AB  - Keywords: deployment models, AWS Lambda, performance, cost
+ER  - 
+
+TY  - JOUR
+TI  - Function-as-a-Service Benchmarking Framework
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2019
+KW  - Benchmarking
+AB  - Keywords: benchmarking framework, FaaS, performance evaluation
+ER  - 
+
+TY  - JOUR
+TI  - Serverless Computing & Function-as-a-Service (FaaS) Optimization
+AU  - Anonymous
+JO  - TAJET
+PY  - 2023
+KW  - Performance, Security
+AB  - Keywords: FaaS optimization, cold start, security, multi-cloud
+ER  - 
+
+TY  - UNPB
+TI  - Rise of the Planet of Serverless Computing: A Systematic Review
+AU  - Anonymous
+JO  - arXiv
+PY  - 2022
+KW  - Survey
+AB  - Keywords: systematic review, serverless computing, performance optimization
+ER  - 
+
+TY  - UNPB
+TI  - Towards Seamless Serverless Computing Across an Edge-Cloud Continuum
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Edge Computing
+AB  - Keywords: edge-cloud, orchestration, serverless deployment
+ER  - 
+
+TY  - UNPB
+TI  - An Application-Centric Benchmarking Framework for FaaS Platforms
+AU  - Anonymous
+JO  - arXiv
+PY  - 2021
+KW  - Benchmarking
+AB  - Keywords: application-centric, benchmarking, FaaS platforms
+ER  - 
+
+TY  - UNPB
+TI  - Function-as-a-Service Performance Evaluation: A Multivocal Literature Review
+AU  - Anonymous
+JO  - arXiv
+PY  - 2020
+KW  - Survey, Performance
+AB  - Keywords: performance evaluation, literature review, FaaS
+ER  - 
+
+TY  - JOUR
+TI  - Survey on serverless computing: Performance evaluation & benchmarking
+AU  - Anonymous
+JO  - Journal of Cloud Computing
+PY  - 2021
+KW  - Benchmarking & Evaluation
+AB  - Keywords: serverless, benchmarking, performance evaluation
+ER  - 
+
+TY  - JOUR
+TI  - Function-as-a-Service Performance Evaluation: A Multivocal Literature Review
+AU  - Anonymous
+JO  - Journal of Systems and Software
+PY  - 2020
+KW  - Benchmarking & Evaluation
+AB  - Keywords: FaaS, performance evaluation, literature review
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking Serverless Computing Platforms
+AU  - Anonymous
+JO  - Journal of Grid Computing
+PY  - 2020
+KW  - Benchmarking & Evaluation
+AB  - Keywords: serverless, benchmarking, cloud platforms
+ER  - 
+
+TY  - JOUR
+TI  - Serverless Computing: Current Trends and Open Problems – A Comprehensive Survey
+AU  - Anonymous
+JO  - Computing Surveys
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: serverless, survey, performance
+ER  - 
+
+TY  - JOUR
+TI  - Toward security quantification of serverless computing
+AU  - Anonymous
+JO  - Journal of Cloud Computing
+PY  - 2024
+KW  - Security & Privacy
+AB  - Keywords: security, quantification, serverless
+ER  - 
+
+TY  - JOUR
+TI  - A survey on cold-start latency approaches in serverless computing
+AU  - Anonymous
+JO  - Computing
+PY  - 2024
+KW  - Latency
+AB  - Keywords: cold start, latency, serverless
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing cold start performance in serverless computing environments
+AU  - Anonymous
+JO  - IC2E
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: cold start, latency, performance
+ER  - 
+
+TY  - JOUR
+TI  - Low-latency edge-cloud serverless computing with a multi-armed bandit scheduler
+AU  - Anonymous
+JO  - Transactions on Cloud Computing
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: latency, edge computing, scheduling
+ER  - 
+
+TY  - JOUR
+TI  - FUYAO: DPU-enabled direct data transfer for serverless computing
+AU  - Anonymous
+JO  - SoCC
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: data transfer, DPU, latency
+ER  - 
+
+TY  - JOUR
+TI  - Tackling cold start in serverless computing with multi-level container reuse
+AU  - Anonymous
+JO  - Transactions on Cloud Computing
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: container reuse, cold start, serverless
+ER  - 
+
+TY  - JOUR
+TI  - Analyzing tail latency in serverless clouds with STeLLAR
+AU  - Anonymous
+JO  - ICDCS
+PY  - 2021
+KW  - Latency, Benchmarking & Evaluation
+AB  - Keywords: tail latency, benchmarking
+ER  - 
+
+TY  - JOUR
+TI  - EdgeFaaSBench: Benchmarking edge devices using serverless computing
+AU  - Anonymous
+JO  - EDGE
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: edge computing, benchmark
+ER  - 
+
+TY  - JOUR
+TI  - BenchFaaS: Benchmarking serverless functions in an edge computing network testbed
+AU  - Anonymous
+JO  - ICCCN
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: benchmark, edge network
+ER  - 
+
+TY  - JOUR
+TI  - Performance characterization of data-store event triggers for serverless computing
+AU  - Anonymous
+JO  - ICDCS
+PY  - 2025
+KW  - Benchmarking & Evaluation
+AB  - Keywords: event triggers, performance
+ER  - 
+
+TY  - JOUR
+TI  - SeBS-Flow: Benchmarking serverless cloud function workflows
+AU  - Anonymous
+JO  - SoCC
+PY  - 2024
+KW  - Benchmarking & Evaluation
+AB  - Keywords: workflows, benchmark
+ER  - 
+
+TY  - UNPB
+TI  - Accelerating serverless computing by harvesting idle resources
+AU  - Anonymous
+JO  - arXiv
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: resource harvesting, performance
+ER  - 
+
+TY  - UNPB
+TI  - Scalable continuous benchmarking on cloud FaaS platforms
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Benchmarking & Evaluation
+AB  - Keywords: continuous benchmarking
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of FaaS performance in private clouds
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: private cloud, FaaS
+ER  - 
+
+TY  - JOUR
+TI  - Evaluating serverless deployment models on AWS Lambda
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2025
+KW  - Benchmarking & Evaluation, Cost
+AB  - Keywords: AWS Lambda, cost, performance
+ER  - 
+
+TY  - JOUR
+TI  - Function-as-a-Service benchmarking framework
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2019
+KW  - Benchmarking & Evaluation
+AB  - Keywords: benchmarking framework
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking serverless computing: performance and usability
+AU  - Anonymous
+JO  - IGI Global
+PY  - 2022
+KW  - Benchmarking & Evaluation
+AB  - Keywords: usability, performance
+ER  - 
+
+TY  - UNPB
+TI  - Serverless architecture for efficient Monte Carlo MCMC computation
+AU  - Anonymous
+JO  - arXiv
+PY  - 2023
+KW  - Resource Management, Performance
+AB  - Keywords: MCMC, serverless
+ER  - 
+
+TY  - JOUR
+TI  - Efficiency in the serverless paradigm: reuse & approximation aspects
+AU  - Anonymous
+JO  - Future Generation Computer Systems
+PY  - 2023
+KW  - Resource Management
+AB  - Keywords: reuse, approximation
+ER  - 
+
+TY  - JOUR
+TI  - Resource management review in serverless computing
+AU  - Anonymous
+JO  - Transactions on Cloud Computing
+PY  - 2023
+KW  - Resource Management
+AB  - Keywords: auto-scaling, allocation
+ER  - 
+
+TY  - JOUR
+TI  - Joint resource management & pricing for serverless edge offloading
+AU  - Anonymous
+JO  - Transactions on Services Computing
+PY  - 2024
+KW  - Resource Management, Cost
+AB  - Keywords: pricing, edge offloading
+ER  - 
+
+TY  - JOUR
+TI  - ATOM: AI-powered sustainable resource management
+AU  - Anonymous
+JO  - Transactions on Cloud Computing
+PY  - 2024
+KW  - Resource Management, Energy Consumption
+AB  - Keywords: AI, sustainability
+ER  - 
+
+TY  - JOUR
+TI  - On the power consumption of serverless functions: An evaluation
+AU  - Anonymous
+JO  - Computers in Science & Engineering
+PY  - 2022
+KW  - Energy Consumption
+AB  - Keywords: power consumption, OpenFaaS
+ER  - 
+
+TY  - JOUR
+TI  - QoS fairness in serverless functions
+AU  - Anonymous
+JO  - Transactions on Services Computing
+PY  - 2024
+KW  - Reliability & QoS
+AB  - Keywords: QoS, fairness
+ER  - 
+
+TY  - CONF
+TI  - Security & privacy edge serverless anomaly detection
+AU  - Anonymous
+T2  - e-Energy Conference
+PY  - 2023
+KW  - Security & Privacy
+AB  - Keywords: anomaly detection, privacy
+ER  - 
+
+TY  - JOUR
+TI  - Privacy quantification of serverless computing
+AU  - Anonymous
+JO  - Journal of Cloud Computing
+PY  - 2024
+KW  - Security & Privacy
+AB  - Keywords: privacy quantification
+ER  - 
+
+TY  - UNPB
+TI  - GPU-oriented data transfer for serverless computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Performance, Resource Management
+AB  - Keywords: GPU transfer, performance
+ER  - 
+
+TY  - UNPB
+TI  - Caching aided multi-tenant serverless computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Performance, Resource Management
+AB  - Keywords: caching, multi-tenancy
+ER  - 
+
+TY  - JOUR
+TI  - RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Reliability, Performance, Resource Management
+AB  - Keywords: reliability, efficiency, autoscaling, edge computing, latency, resource management
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Cold Start Performance in Serverless Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: cold start, latency, performance, reliability
+ER  - 
+
+TY  - JOUR
+TI  - A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: low-latency, edge-cloud, scheduling, multi-armed bandit
+ER  - 
+
+TY  - JOUR
+TI  - FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Performance
+AB  - Keywords: data transfer, latency, DPU, performance
+ER  - 
+
+TY  - JOUR
+TI  - Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse
+AU  - Anonymous
+PY  - 2024
+KW  - Latency, Resource Management
+AB  - Keywords: cold start, container reuse, resource management
+ER  - 
+
+TY  - JOUR
+TI  - FIAless: Asynchronous Programming for Large-Scale Burst Requests in Serverless Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Performance, Resource Management
+AB  - Keywords: asynchronous programming, burst requests, performance
+ER  - 
+
+TY  - JOUR
+TI  - KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge
+AU  - Anonymous
+PY  - 2022
+KW  - Resource Management, Performance
+AB  - Keywords: resource scaling, edge computing, auto-scaling
+ER  - 
+
+TY  - JOUR
+TI  - Towards Quality of Experience Fairness for Serverless Functions
+AU  - Anonymous
+PY  - 2024
+KW  - QoS, Resource Management
+AB  - Keywords: QoS, fairness, resource allocation
+ER  - 
+
+TY  - JOUR
+TI  - Enabling HPC Scientific Workflows for Serverless
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Performance
+AB  - Keywords: HPC, scientific workflows, resource management
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Resource Management in Serverless Computing: A Dynamic Adaptive Scaling Approach
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Cost
+AB  - Keywords: dynamic scaling, resource management, cost optimization
+ER  - 
+
+TY  - JOUR
+TI  - ATOM: AI-Powered Sustainable Resource Management for Serverless Edge Computing Environments
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Energy Consumption
+AB  - Keywords: AI, sustainable computing, edge computing, energy efficiency
+ER  - 
+
+TY  - JOUR
+TI  - Resource Management in Serverless Computing - Review, Research Challenges, and Prospects
+AU  - Anonymous
+PY  - 2023
+KW  - Resource Management, Survey
+AB  - Keywords: resource management, survey, QoS
+ER  - 
+
+TY  - JOUR
+TI  - Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing
+AU  - Anonymous
+PY  - 2024
+KW  - Resource Management, Cost
+AB  - Keywords: resource allocation, pricing, edge computing, energy efficiency
+ER  - 
+
+TY  - JOUR
+TI  - Toward security quantification of serverless computing
+AU  - Anonymous
+JO  - Springer
+PY  - 2024
+KW  - Security, Privacy
+AB  - Keywords: security quantification, attack tree, privacy
+ER  - 
+
+TY  - CONF
+TI  - On the Power Consumption of Serverless Functions: An Evaluation of OpenFaaS
+AU  - Anonymous
+T2  - Conference
+PY  - 2022
+KW  - Energy Consumption
+AB  - Keywords: power consumption, energy efficiency, OpenFaaS
+ER  - 
+
+TY  - JOUR
+TI  - A Performance Benchmark for Serverless Function Triggers
+AU  - Anonymous
+JO  - IC2E
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: performance benchmark, function triggers, distributed tracing
+ER  - 
+
+TY  - JOUR
+TI  - Designing Quality of Service aware Serverless Platforms
+AU  - Anonymous
+JO  - IISc Thesis
+PY  - 2024
+KW  - QoS
+AB  - Keywords: QoS, serverless platforms, resource allocation
+ER  - 
+
+TY  - JOUR
+TI  - ENERGY-EFFICIENT AND COST-EFFECTIVE SERVERLESS COMPUTING
+AU  - Anonymous
+JO  - IJRCAIT
+PY  - 2024
+KW  - Energy Consumption, Cost
+AB  - Keywords: energy efficiency, cost effectiveness, green computing
+ER  - 
+
+TY  - JOUR
+TI  - Practical Cloud Workloads for Serverless FaaS
+AU  - Anonymous
+PY  - 2019
+KW  - Benchmarking
+AB  - Keywords: workloads, FaaS, benchmarking, evaluation
+ER  - 
+
+TY  - JOUR
+TI  - FunctionBench: A Suite of Workloads for Serverless Cloud Function Service
+AU  - Anonymous
+PY  - 2019
+KW  - Benchmarking
+AB  - Keywords: benchmark, workloads, cloud functions
+ER  - 
+
+TY  - UNPB
+TI  - Scalable Continuous Benchmarking on Cloud FaaS Platforms
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Benchmarking
+AB  - Keywords: continuous benchmarking, FaaS platforms, performance testing
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of FaaS Platform Performance in Private Clouds
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2022
+KW  - Performance, Benchmarking
+AB  - Keywords: FaaS platforms, private clouds, performance comparison
+ER  - 
+
+TY  - JOUR
+TI  - Evaluating Serverless Function Deployment Models on AWS Lambda
+AU  - Anonymous
+JO  - SCITEPRESS
+PY  - 2025
+KW  - Performance, Cost
+AB  - Keywords: deployment models, AWS Lambda, performance, cost
+ER  - 
+
+TY  - JOUR
+TI  - Serverless Computing & Function-as-a-Service (FaaS) Optimization
+AU  - Anonymous
+JO  - TAJET
+PY  - 2023
+KW  - Performance, Security
+AB  - Keywords: FaaS optimization, cold start, security, multi-cloud
+ER  - 
+
+TY  - UNPB
+TI  - Cold Start Latency in Serverless Computing: A Systematic Review
+AU  - Anonymous
+JO  - arXiv
+PY  - 2023
+KW  - Latency, Survey
+AB  - Keywords: cold start latency, systematic review, serverless computing
+ER  - 
+
+TY  - UNPB
+TI  - Lightweight, Secure and Stateful Serverless Computing with PSL
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Security, Performance
+AB  - Keywords: lightweight computing, security, stateful serverless
+ER  - 
+
+TY  - UNPB
+TI  - Caching Aided Multi-Tenant Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Performance, Resource Management
+AB  - Keywords: caching, multi-tenant, serverless computing
+ER  - 
+
+TY  - UNPB
+TI  - Towards Fast Setup and High Throughput of GPU Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Performance
+AB  - Keywords: GPU serverless, fast setup, high throughput
+ER  - 
+
+TY  - UNPB
+TI  - Serverless Actors with Short-Term Memory State for the Edge-Cloud Continuum
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Edge Computing
+AB  - Keywords: serverless actors, edge-cloud, memory state
+ER  - 
+
+TY  - UNPB
+TI  - LLM-Based Misconfiguration Detection for AWS Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Security
+AB  - Keywords: LLM, misconfiguration detection, AWS serverless
+ER  - 
+
+TY  - UNPB
+TI  - Input-Based Ensemble-Learning Method for Dynamic Memory Configuration
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Resource Management
+AB  - Keywords: ensemble learning, memory configuration, serverless
+ER  - 
+
+TY  - UNPB
+TI  - FaaSTube: Optimizing GPU-oriented Data Transfer for Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Performance
+AB  - Keywords: GPU optimization, data transfer, serverless computing
+ER  - 
+
+TY  - UNPB
+TI  - Serverless Computing for Scientific Applications
+AU  - Anonymous
+JO  - arXiv
+PY  - 2023
+KW  - Applications
+AB  - Keywords: scientific computing, serverless applications
+ER  - 
+
+TY  - UNPB
+TI  - Efficiency in the Serverless Cloud Paradigm: Reusing and Approximation Aspects
+AU  - Anonymous
+JO  - arXiv
+PY  - 2023
+KW  - Efficiency
+AB  - Keywords: efficiency, function reuse, approximation
+ER  - 
+
+TY  - UNPB
+TI  - Software Engineering for Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2022
+KW  - Software Engineering
+AB  - Keywords: software engineering, serverless computing
+ER  - 
+
+TY  - UNPB
+TI  - LaSS: Running Latency Sensitive Serverless Computations at the Edge
+AU  - Anonymous
+JO  - arXiv
+PY  - 2021
+KW  - Latency, Edge Computing
+AB  - Keywords: latency sensitive, edge computing, serverless
+ER  - 
+
+TY  - UNPB
+TI  - Accelerating Serverless Computing by Harvesting Idle Resources
+AU  - Anonymous
+JO  - arXiv
+PY  - 2022
+KW  - Resource Management
+AB  - Keywords: resource harvesting, idle resources, acceleration
+ER  - 
+
+TY  - UNPB
+TI  - In-Storage Domain-Specific Acceleration for Serverless Computing
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Acceleration
+AB  - Keywords: in-storage acceleration, domain-specific, serverless
+ER  - 
+
+TY  - UNPB
+TI  - A Serverless Architecture for Efficient Monte Carlo Markov Chain Computation
+AU  - Anonymous
+JO  - arXiv
+PY  - 2023
+KW  - Applications
+AB  - Keywords: Monte Carlo, MCMC, serverless architecture
+ER  - 
+
+TY  - UNPB
+TI  - Energy Efficiency Support for Software Defined Networks: a Serverless Computing Approach
+AU  - Anonymous
+JO  - arXiv
+PY  - 2024
+KW  - Energy Consumption
+AB  - Keywords: energy efficiency, SDN, serverless computing
+ER  - 
+

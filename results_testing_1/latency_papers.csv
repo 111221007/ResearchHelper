@@ -1,0 +1,18 @@
+id,title,authors,year,venue,category,pdf_link
+,RL-Based Approach to Enhance Reliability and Efficiency in Autoscaling for Heterogeneous Edge Serverless Computing Environments,Not specified,2024,IEEE,"Reliability, Performance",https://ieeexplore.ieee.org/document/10858932/
+,Optimizing Cold Start Performance in Serverless Computing Environments,Not specified,2024,IEEE,"Latency, Performance",https://ieeexplore.ieee.org/document/10896391/
+,Tackling cold start in serverless computing with multi-level container reuse,Anonymous,2024,IEEE Transactions on Cloud Computing,"Latency, Resource Management",https://ieeexplore.ieee.org/document/10579145/
+,FUYAO: DPU-enabled direct data transfer for serverless computing,Anonymous,2024,ACM SoCC,"Latency, Performance",https://dl.acm.org/doi/10.1145/3620666.3651327
+,Low-latency edge-cloud serverless computing with a multi-armed bandit scheduler,Anonymous,2024,IEEE Transactions on Cloud Computing,"Latency, Resource Management",https://ieeexplore.ieee.org/document/10592558/
+,Optimizing cold start performance in serverless computing environments,Anonymous,2024,IEEE IC2E,"Latency, Performance",https://ieeexplore.ieee.org/document/10896391/
+,A survey on cold-start latency approaches in serverless computing,Anonymous,2024,Computing,Latency,https://link.springer.com/article/10.1007/s00607-024-01335-5
+,Serverless Edge Computing Framework for Efficient Offloading Method with Time Frame Based Priority Resource Management,Not specified,2024,IEEE,"Resource Management, Latency",https://ieeexplore.ieee.org/document/10625440/
+,Tackling Cold Start in Serverless Computing with Multi-Level Container Reuse,Not specified,2024,IEEE,"Latency, Resource Management",https://ieeexplore.ieee.org/document/10579145/
+,FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing,Not specified,2024,ACM,"Latency, Performance",https://dl.acm.org/doi/10.1145/3620666.3651327
+,A Low-Latency Edge-Cloud Serverless Computing Framework with a Multi-Armed Bandit Scheduler,Not specified,2024,IEEE,"Latency, Resource Management",https://ieeexplore.ieee.org/document/10592558/
+,Serverless Computing & Function-as-a-Service (FaaS) Optimization,Nishanth Reddy Pinnapareddy,2023,TAJET,"Performance, Security",https://theamericanjournals.com/index.php/tajet/article/view/6037
+34,Serverless Computing & Function-as-a-Service (FaaS) Optimization,Nishanth Reddy Pinnapareddy,2023,TAJET,"Performance, Security",https://theamericanjournals.com/index.php/tajet/article/view/6037
+35,Cold Start Latency in Serverless Computing: A Systematic Review,"Muhammed Golec, et al.",2023,arXiv,"Latency, Survey",https://arxiv.org/pdf/2310.08437.pdf
+,Analyzing Tail Latency in Serverless Clouds with STeLLAR,Not specified,2021,IEEE,"Latency, Benchmarking",https://ieeexplore.ieee.org/document/9668286/
+,Analyzing tail latency in serverless clouds with STeLLAR,Anonymous,2021,IEEE ICDCS,"Latency, Benchmarking & Evaluation",https://ieeexplore.ieee.org/document/9668286/
+46,LaSS: Running Latency Sensitive Serverless Computations at the Edge,Multiple Authors,2021,arXiv,"Latency, Edge Computing",https://arxiv.org/pdf/2104.14087.pdf
