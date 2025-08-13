@@ -17,41 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/results/combined_papers_deduplicated.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/combined_papers_deduplicated_with_abstracts_20250811_103658.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/combined_papers_reorganized_20250811_111424.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/consolidated_papers.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/consolidated_papers_with_abstracts_20250811_081505.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/results/cost_papers_consolidated.csv">
           <value>
             <Attribute>
@@ -74,20 +39,6 @@
           </value>
         </entry>
         <entry key="/results/metrics_summary_consolidated.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/papers_pdf_download_20250810_160202.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/papers_tldr_semantic_scholar_20250810_155543.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
