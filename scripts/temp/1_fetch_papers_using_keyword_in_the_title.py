@@ -212,11 +212,13 @@ class CrossrefPaperFetcher:
             print("⚠️ No papers to save")
             return ""
 
-        # Set default output directory to results/new
+        # Set default output directory to results/1
         if output_dir is None:
+            # Go up to the main ResearchHelper directory and then to results/1
             current_dir = os.path.dirname(os.path.abspath(__file__))
-            project_dir = os.path.dirname(current_dir)
-            output_dir = os.path.join(project_dir, 'results', 'new')
+            # Navigate from scripts/temp/ to the main directory, then to results/1
+            main_dir = os.path.dirname(os.path.dirname(current_dir))  # Go up two levels from scripts/temp/
+            output_dir = os.path.join(main_dir, 'results', '1')
 
         # Create output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
@@ -228,7 +230,7 @@ class CrossrefPaperFetcher:
         safe_keyword = "".join(c for c in keyword if c.isalnum() or c in (' ', '-', '_')).rstrip()
         safe_keyword = safe_keyword.replace(' ', '_').lower()
         timestamp = time.strftime("%Y%m%d_%H%M%S")
-        filename = f"crossref_papers_{safe_keyword}_{timestamp}.csv"
+        filename = f"list_of_papers_{safe_keyword}_{timestamp}.csv"
         filepath = os.path.join(output_dir, filename)
 
         # Save to CSV

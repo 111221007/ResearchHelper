@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "simple_pipeline_api.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "simple_pipeline_api.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": "./"
+  },
+  "functions": {
+    "simple_pipeline_api.py": {
+      "maxDuration": 300
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "research-paper-fetcher",
+  "version": "1.0.0",
+  "description": "A free research paper fetcher using Crossref API",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed'",
+    "start": "echo 'Static site - no start command needed'"
+  },
+  "keywords": ["research", "papers", "crossref", "academic", "free"],
+  "author": "Research Helper",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}
+

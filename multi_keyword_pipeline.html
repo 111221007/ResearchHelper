@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔬 Multi-Keyword Research Paper Pipeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .pipeline-container {
+            padding: 40px;
+        }
+
+        .step-section {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .step-section.active {
+            border-color: #4f46e5;
+            background: #f0f9ff;
+        }
+
+        .step-section.completed {
+            border-color: #10b981;
+            background: #f0fdf4;
+        }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e5e7eb;
+            color: #6b7280;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .step-section.active .step-number {
+            background: #4f46e5;
+            color: white;
+        }
+
+        .step-section.completed .step-number {
+            background: #10b981;
+            color: white;
+        }
+
+        .keyword-configs {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .keyword-config {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .keyword-config:last-child {
+            margin-bottom: 0;
+        }
+
+        .config-header {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .config-title {
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .remove-config {
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 0.8em;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #374151;
+            font-size: 0.9em;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 0.9em;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+            color: white;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #e5e7eb;
+            color: #6b7280;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .pipeline-options {
+            background: #f0f9ff;
+            border: 1px solid #3b82f6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+            accent-color: #4f46e5;
+        }
+
+        .progress-container {
+            margin: 20px 0;
+            display: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .status {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .status.info {
+            background: #dbeafe;
+            color: #1e40af;
+            border: 1px solid #3b82f6;
+        }
+
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #10b981;
+        }
+
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #ef4444;
+        }
+
+        .results-container {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4f46e5;
+        }
+
+        .stat-label {
+            color: #6b7280;
+            font-size: 0.9em;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 Multi-Keyword Research Paper Pipeline</h1>
+            <p>Complete End-to-End Solution: Fetch Multiple Keywords → Deduplicate → Enhance Abstracts → Download PDFs → Categorize</p>
+        </div>
+
+        <div class="pipeline-container">
+            <!-- Step 1: Keyword Configurations -->
+            <div class="step-section active" id="step1">
+                <div class="step-header">
+                    <div class="step-number">1</div>
+                    <h3>🎯 Configure Multiple Keywords</h3>
+                </div>
+
+                <div class="keyword-configs" id="keywordConfigs">
+                    <!-- Keyword configurations will be added here -->
+                </div>
+
+                <button class="btn btn-outline" onclick="addKeywordConfig()">
+                    ➕ Add Another Keyword Configuration
+                </button>
+            </div>
+
+            <!-- Step 2: Pipeline Options -->
+            <div class="step-section" id="step2">
+                <div class="step-header">
+                    <div class="step-number">2</div>
+                    <h3>⚙️ Pipeline Options</h3>
+                </div>
+
+                <div class="pipeline-options">
+                    <h4 style="margin-bottom: 15px;">Select Processing Steps:</h4>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="enableAbstractEnhancement" checked>
+                            <label for="enableAbstractEnhancement">📝 Enhance Abstracts (Semantic Scholar, arXiv)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="enablePdfDownload" checked>
+                            <label for="enablePdfDownload">📥 Download PDFs</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="enableCategorization" checked>
+                            <label for="enableCategorization">🏷️ Categorize & Extract Keywords</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Execute Pipeline -->
+            <div class="step-section" id="step3">
+                <div class="step-header">
+                    <div class="step-number">3</div>
+                    <h3>🚀 Execute Complete Pipeline</h3>
+                </div>
+
+                <p style="margin-bottom: 20px; color: #6b7280;">
+                    This will fetch papers for all keyword configurations, remove duplicates, and process them through the selected pipeline steps.
+                </p>
+
+                <button class="btn btn-primary" id="executePipelineBtn" onclick="executePipeline()">
+                    <span id="executeBtnText">🚀 Start Complete Pipeline</span>
+                    <span id="executeSpinner" class="spinner" style="display: none;"></span>
+                </button>
+
+                <div class="progress-container" id="progressContainer">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <div class="status" id="statusMessage"></div>
+            </div>
+
+            <!-- Step 4: Results -->
+            <div class="step-section" id="step4">
+                <div class="step-header">
+                    <div class="step-number">4</div>
+                    <h3>📊 Pipeline Results</h3>
+                </div>
+
+                <div class="results-container" id="resultsContainer">
+                    <div class="stats-grid" id="statsGrid">
+                        <!-- Statistics will be populated here -->
+                    </div>
+
+                    <div class="button-group">
+                        <button class="btn btn-success" id="downloadCsvBtn" disabled onclick="downloadEnhancedCsv()">
+                            📥 Download Enhanced CSV
+                        </button>
+                        <button class="btn btn-primary" id="downloadBibtexBtn" disabled onclick="downloadBibtex()">
+                            📚 Download BibTeX
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetPipeline()">
+                            🔄 Reset Pipeline
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let keywordConfigCount = 0;
+        let pipelineResults = null;
+        let isProcessing = false;
+
+        // Initialize with one default configuration
+        document.addEventListener('DOMContentLoaded', function() {
+            addKeywordConfig();
+            showStatus('Ready to configure your multi-keyword research pipeline! 🎯', 'info');
+        });
+
+        function addKeywordConfig() {
+            keywordConfigCount++;
+            const container = document.getElementById('keywordConfigs');
+
+            const configDiv = document.createElement('div');
+            configDiv.className = 'keyword-config';
+            configDiv.id = `config_${keywordConfigCount}`;
+
+            configDiv.innerHTML = `
+                <div class="config-header">
+                    <div class="config-title">Configuration ${keywordConfigCount}</div>
+                    ${keywordConfigCount > 1 ? `<button class="remove-config" onclick="removeKeywordConfig(${keywordConfigCount})">Remove</button>` : ''}
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Primary Keyword *</label>
+                        <input type="text" id="primary_${keywordConfigCount}" placeholder="e.g., serverless computing" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Secondary Keyword</label>
+                        <input type="text" id="secondary_${keywordConfigCount}" placeholder="e.g., performance">
+                    </div>
+                    <div class="form-group">
+                        <label>From Year</label>
+                        <input type="number" id="fromYear_${keywordConfigCount}" min="2000" max="2025" value="2020">
+                    </div>
+                    <div class="form-group">
+                        <label>To Year</label>
+                        <input type="number" id="toYear_${keywordConfigCount}" min="2000" max="2025" value="2025">
+                    </div>
+                    <div class="form-group">
+                        <label>Max Papers</label>
+                        <input type="number" id="maxResults_${keywordConfigCount}" min="5" max="100" value="30">
+                    </div>
+                </div>
+            `;
+
+            container.appendChild(configDiv);
+
+            // Set default values for first config
+            if (keywordConfigCount === 1) {
+                document.getElementById(`primary_${keywordConfigCount}`).value = 'serverless computing';
+                document.getElementById(`secondary_${keywordConfigCount}`).value = 'performance';
+            }
+        }
+
+        function removeKeywordConfig(configId) {
+            const configDiv = document.getElementById(`config_${configId}`);
+            if (configDiv) {
+                configDiv.remove();
+            }
+        }
+
+        function getKeywordConfigurations() {
+            const configs = [];
+            const configDivs = document.querySelectorAll('.keyword-config');
+
+            for (let div of configDivs) {
+                const id = div.id.split('_')[1];
+                const primary = document.getElementById(`primary_${id}`).value.trim();
+
+                if (primary) {
+                    configs.push({
+                        primary_keyword: primary,
+                        secondary_keyword: document.getElementById(`secondary_${id}`).value.trim(),
+                        from_year: parseInt(document.getElementById(`fromYear_${id}`).value),
+                        to_year: parseInt(document.getElementById(`toYear_${id}`).value),
+                        max_results: parseInt(document.getElementById(`maxResults_${id}`).value)
+                    });
+                }
+            }
+
+            return configs;
+        }
+
+        async function executePipeline() {
+            if (isProcessing) return;
+
+            const keywordConfigs = getKeywordConfigurations();
+
+            if (keywordConfigs.length === 0) {
+                showStatus('❌ Please add at least one keyword configuration with a primary keyword', 'error');
+                return;
+            }
+
+            // Validate configurations
+            for (let i = 0; i < keywordConfigs.length; i++) {
+                if (keywordConfigs[i].from_year > keywordConfigs[i].to_year) {
+                    showStatus(`❌ Configuration ${i+1}: From Year cannot be greater than To Year`, 'error');
+                    return;
+                }
+            }
+
+            setProcessing(true);
+            updateStepStatus(1, 'completed');
+            updateStepStatus(2, 'completed');
+            updateStepStatus(3, 'active');
+            showProgress();
+
+            try {
+                showStatus('🚀 Starting complete pipeline...', 'info');
+                updateProgress(10);
+
+                const requestData = {
+                    keyword_configs: keywordConfigs,
+                    enable_abstract_enhancement: document.getElementById('enableAbstractEnhancement').checked,
+                    enable_pdf_download: document.getElementById('enablePdfDownload').checked,
+                    enable_categorization: document.getElementById('enableCategorization').checked
+                };
+
+                updateProgress(20);
+                showStatus('📋 Processing multiple keyword configurations...', 'info');
+
+                const response = await fetch('/api/process-complete', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                updateProgress(90);
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
+
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    pipelineResults = result;
+                    updateProgress(100);
+                    updateStepStatus(3, 'completed');
+                    updateStepStatus(4, 'active');
+
+                    displayResults(result);
+                    showStatus('✅ Complete pipeline executed successfully!', 'success');
+
+                    document.getElementById('downloadCsvBtn').disabled = false;
+                    document.getElementById('downloadBibtexBtn').disabled = false;
+                } else {
+                    throw new Error(result.message || 'Pipeline execution failed');
+                }
+
+            } catch (error) {
+                showStatus(`❌ Pipeline error: ${error.message}`, 'error');
+                console.error('Pipeline error:', error);
+            } finally {
+                setProcessing(false);
+                hideProgress();
+            }
+        }
+
+        function displayResults(result) {
+            const statsGrid = document.getElementById('statsGrid');
+            const stats = result.statistics;
+
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${stats.total_configurations || 0}</div>
+                    <div class="stat-label">Keyword Configurations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.papers_fetched || 0}</div>
+                    <div class="stat-label">Papers Fetched</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.papers_after_deduplication || 0}</div>
+                    <div class="stat-label">After Deduplication</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.abstracts_enhanced || 0}</div>
+                    <div class="stat-label">Abstracts Enhanced</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.pdfs_downloaded || 0}</div>
+                    <div class="stat-label">PDFs Downloaded</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.papers_categorized || 0}</div>
+                    <div class="stat-label">Papers Categorized</div>
+                </div>
+            `;
+
+            document.getElementById('resultsContainer').style.display = 'block';
+        }
+
+        async function downloadEnhancedCsv() {
+            if (!pipelineResults) return;
+
+            try {
+                const response = await fetch('/api/download-enhanced-csv', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        papers: pipelineResults.papers
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Download failed: ${response.status}`);
+                }
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `enhanced_research_papers_${new Date().toISOString().slice(0, 10)}.csv`;
+
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                window.URL.revokeObjectURL(url);
+
+                showStatus('📥 Enhanced CSV downloaded successfully!', 'success');
+
+            } catch (error) {
+                showStatus(`❌ Download error: ${error.message}`, 'error');
+            }
+        }
+
+        async function downloadBibtex() {
+            if (!pipelineResults) return;
+
+            try {
+                const response = await fetch('/api/generate-enhanced-bibtex', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        papers: pipelineResults.papers
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`BibTeX generation failed: ${response.status}`);
+                }
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `enhanced_references_${new Date().toISOString().slice(0, 10)}.bib`;
+
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                window.URL.revokeObjectURL(url);
+
+                showStatus('📚 BibTeX file downloaded successfully!', 'success');
+
+            } catch (error) {
+                showStatus(`❌ BibTeX error: ${error.message}`, 'error');
+            }
+        }
+
+        function resetPipeline() {
+            // Reset all steps
+            document.querySelectorAll('.step-section').forEach(section => {
+                section.classList.remove('active', 'completed');
+            });
+            updateStepStatus(1, 'active');
+
+            // Clear results
+            pipelineResults = null;
+            document.getElementById('resultsContainer').style.display = 'none';
+            document.getElementById('downloadCsvBtn').disabled = true;
+            document.getElementById('downloadBibtexBtn').disabled = true;
+
+            // Reset status
+            showStatus('Ready to configure your multi-keyword research pipeline! 🎯', 'info');
+        }
+
+        function updateStepStatus(stepNumber, status) {
+            const step = document.getElementById(`step${stepNumber}`);
+            step.classList.remove('active', 'completed');
+            if (status) {
+                step.classList.add(status);
+            }
+        }
+
+        function setProcessing(processing) {
+            isProcessing = processing;
+            const executeBtn = document.getElementById('executePipelineBtn');
+            const executeBtnText = document.getElementById('executeBtnText');
+            const executeSpinner = document.getElementById('executeSpinner');
+
+            executeBtn.disabled = processing;
+            executeBtnText.style.display = processing ? 'none' : 'inline';
+            executeSpinner.style.display = processing ? 'inline-block' : 'none';
+        }
+
+        function showProgress() {
+            document.getElementById('progressContainer').style.display = 'block';
+        }
+
+        function hideProgress() {
+            document.getElementById('progressContainer').style.display = 'none';
+            updateProgress(0);
+        }
+
+        function updateProgress(percent) {
+            document.getElementById('progressFill').style.width = percent + '%';
+        }
+
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('statusMessage');
+            statusEl.textContent = message;
+            statusEl.className = 'status ' + type;
+            statusEl.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+

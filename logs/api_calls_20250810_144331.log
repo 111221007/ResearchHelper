@@ -1,0 +1,28 @@
+2025-08-10 14:43:31,847 - INFO - ============================================================
+2025-08-10 14:43:31,848 - INFO - API Logging Started - Title to Abstract Fetcher
+2025-08-10 14:43:31,848 - INFO - ============================================================
+2025-08-10 14:43:31,855 - INFO - Making API request to: https://api.crossref.org/works?query.title="FaaSCtrl%3A%20A%20Comprehensive-Latency%20Controller%20for%20Serverless%20Platforms"&rows=5&sort=relevance
+2025-08-10 14:43:35,425 - INFO - API_CALL | URL: https://api.crossref.org/works?query.title="FaaSCtrl%3A%20A%20Comprehensive-Latency%20Controller%20for%20Serverless%20Platforms"&rows=5&sort=relevance | Response_Time: 3.57s | Status: 200 | Title: FaaSCtrl: A Comprehensive-Latency Controller for S... | Success: True
+2025-08-10 14:43:35,426 - INFO - API_RESPONSE | Total results: 446406 | Items returned: 5
+2025-08-10 14:43:35,426 - INFO - MATCH_FOUND | Original: FaaSCtrl: A Comprehensive-Late... | Matched: FaaSCtrl: A Comprehensive-Late...
+2025-08-10 14:43:35,426 - INFO - ABSTRACT_EMPTY | Abstract field exists but is empty
+2025-08-10 14:43:35,933 - INFO - Making API request to: https://api.crossref.org/works?query.title="Caching%20Techniques%20to%20Improve%20Latency%20in%20Serverless%20Architectures"&rows=5&sort=relevance
+2025-08-10 14:43:37,931 - INFO - API_CALL | URL: https://api.crossref.org/works?query.title="Caching%20Techniques%20to%20Improve%20Latency%20in%20Serverless%20Architectures"&rows=5&sort=relevance | Response_Time: 2.00s | Status: 200 | Title: Caching Techniques to Improve Latency in Serverles... | Success: True
+2025-08-10 14:43:37,932 - INFO - API_RESPONSE | Total results: 851137 | Items returned: 5
+2025-08-10 14:43:37,932 - INFO - MATCH_FOUND | Original: Caching Techniques to Improve ... | Matched: Caching Techniques to Improve ...
+2025-08-10 14:43:37,932 - INFO - ABSTRACT_EMPTY | Abstract field exists but is empty
+2025-08-10 14:43:38,435 - INFO - Making API request to: https://api.crossref.org/works?query.title="Towards%20Latency-Aware%20Linux%20Scheduling%20for%20Serverless%20Workloads"&rows=5&sort=relevance
+2025-08-10 14:43:40,701 - INFO - API_CALL | URL: https://api.crossref.org/works?query.title="Towards%20Latency-Aware%20Linux%20Scheduling%20for%20Serverless%20Workloads"&rows=5&sort=relevance | Response_Time: 2.27s | Status: 200 | Title: Towards Latency-Aware Linux Scheduling for Serverl... | Success: True
+2025-08-10 14:43:40,703 - INFO - API_RESPONSE | Total results: 748932 | Items returned: 5
+2025-08-10 14:43:40,703 - INFO - MATCH_FOUND | Original: Towards Latency-Aware Linux Sc... | Matched: Towards Latency-Aware Linux Sc...
+2025-08-10 14:43:40,703 - INFO - ABSTRACT_EMPTY | Abstract field exists but is empty
+2025-08-10 14:43:41,207 - INFO - Making API request to: https://api.crossref.org/works?query.title="Analyzing%20Tail%20Latency%20in%20Serverless%20Clouds%20with%20STeLLAR"&rows=5&sort=relevance
+2025-08-10 14:43:42,276 - INFO - API_CALL | URL: https://api.crossref.org/works?query.title="Analyzing%20Tail%20Latency%20in%20Serverless%20Clouds%20with%20STeLLAR"&rows=5&sort=relevance | Response_Time: 1.07s | Status: 200 | Title: Analyzing Tail Latency in Serverless Clouds with S... | Success: True
+2025-08-10 14:43:42,276 - INFO - API_RESPONSE | Total results: 233018 | Items returned: 5
+2025-08-10 14:43:42,276 - INFO - MATCH_FOUND | Original: Analyzing Tail Latency in Serv... | Matched: Analyzing Tail Latency in Serv...
+2025-08-10 14:43:42,276 - INFO - ABSTRACT_EMPTY | Abstract field exists but is empty
+2025-08-10 14:43:42,782 - INFO - Making API request to: https://api.crossref.org/works?query.title="A%20Review%3A%20Cold%20Start%20Latency%20in%20Serverless%20Computing"&rows=5&sort=relevance
+2025-08-10 14:43:44,285 - INFO - API_CALL | URL: https://api.crossref.org/works?query.title="A%20Review%3A%20Cold%20Start%20Latency%20in%20Serverless%20Computing"&rows=5&sort=relevance | Response_Time: 1.50s | Status: 200 | Title: A Review: Cold Start Latency in Serverless Computi... | Success: True
+2025-08-10 14:43:44,285 - INFO - API_RESPONSE | Total results: 3288270 | Items returned: 5
+2025-08-10 14:43:44,286 - INFO - MATCH_FOUND | Original: A Review: Cold Start Latency i... | Matched: A Review: Cold Start Latency i...
+2025-08-10 14:43:44,286 - INFO - ABSTRACT_EMPTY | Abstract field exists but is empty

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔬 Research Paper Pipeline - Fixed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .form-container {
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #4f46e5;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .status.info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .results-container {
+            margin-top: 30px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .paper-item {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .paper-title {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+
+        .paper-meta {
+            color: #64748b;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #6b7280;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 Research Paper Pipeline</h1>
+            <p>Find, analyze, and download research papers - Fixed Version!</p>
+        </div>
+
+        <div class="form-container">
+            <form id="fetchForm">
+                <div class="form-group">
+                    <label for="keyword">🔍 Primary Keyword *</label>
+                    <input type="text" id="keyword" name="keyword" value="serverless" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="additional_keyword">➕ Additional Keyword (optional)</label>
+                    <input type="text" id="additional_keyword" name="additional_keyword" value="performance">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="from_year">📅 From Year</label>
+                        <input type="number" id="from_year" name="from_year" value="2020" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="to_year">📅 To Year</label>
+                        <input type="number" id="to_year" name="to_year" value="2025" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="total_results">📊 Number of Results</label>
+                    <input type="number" id="total_results" name="total_results" value="10" min="1" max="50" required>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary" id="fetchBtn">🚀 Fetch Papers</button>
+                    <button type="button" class="btn btn-secondary" id="processBtn" disabled>⚡ Process Pipeline</button>
+                    <button type="button" class="btn btn-secondary" id="downloadBtn" disabled>📥 Download CSV</button>
+                </div>
+            </form>
+
+            <div id="statusMessage" class="status" style="display: none;"></div>
+
+            <div id="resultsContainer" class="results-container" style="display: none;">
+                <h3>📄 Results</h3>
+                <div id="resultsContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let fetchedPapers = [];
+        let processedPapers = [];
+
+        document.getElementById('fetchForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            await fetchPapers();
+        });
+
+        document.getElementById('processBtn').addEventListener('click', async function() {
+            await processPapers();
+        });
+
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            downloadCSV();
+        });
+
+        async function fetchPapers() {
+            const fetchBtn = document.getElementById('fetchBtn');
+            const processBtn = document.getElementById('processBtn');
+
+            try {
+                // Disable button and show loading
+                fetchBtn.disabled = true;
+                fetchBtn.textContent = '🔄 Fetching...';
+                showStatus('🔍 Starting paper fetch...', 'info');
+                showResults('Loading papers...', true);
+
+                // Get form data
+                const formData = new FormData(document.getElementById('fetchForm'));
+                const data = {
+                    keyword: formData.get('keyword'),
+                    additional_keyword: formData.get('additional_keyword'),
+                    from_year: parseInt(formData.get('from_year')),
+                    to_year: parseInt(formData.get('to_year')),
+                    total_results: parseInt(formData.get('total_results')),
+                    title_filter: true,
+                    paper_type_filter: true
+                };
+
+                console.log('Sending request with data:', data);
+
+                // Make API call
+                const response = await fetch('/api/fetch', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                console.log('Response status:', response.status);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                console.log('API result:', result);
+
+                if (result.success && result.papers && result.papers.length > 0) {
+                    fetchedPapers = result.papers;
+                    showStatus(`✅ Successfully fetched ${result.papers.length} papers!`, 'success');
+                    displayPapers(result.papers);
+
+                    // Enable process button
+                    processBtn.disabled = false;
+
+                    // Change fetch button to "Fetched X papers"
+                    fetchBtn.textContent = `✅ Fetched ${result.papers.length} papers`;
+                    fetchBtn.disabled = false;
+                } else {
+                    throw new Error('No papers found or API returned empty result');
+                }
+
+            } catch (error) {
+                console.error('Fetch error:', error);
+                showStatus(`❌ Error: ${error.message}`, 'error');
+                showResults(`Error fetching papers: ${error.message}`);
+
+                // Re-enable button
+                fetchBtn.disabled = false;
+                fetchBtn.textContent = '🚀 Fetch Papers';
+            }
+        }
+
+        async function processPapers() {
+            const processBtn = document.getElementById('processBtn');
+            const downloadBtn = document.getElementById('downloadBtn');
+
+            try {
+                processBtn.disabled = true;
+                processBtn.textContent = '🔄 Processing...';
+                showStatus('⚡ Processing papers (extracting abstracts, categorizing)...', 'info');
+
+                const response = await fetch('/api/process-complete', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ papers: fetchedPapers })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+
+                if (result.success && result.papers) {
+                    processedPapers = result.papers;
+                    showStatus(`✅ Successfully processed ${result.papers.length} papers!`, 'success');
+                    displayProcessedPapers(result.papers);
+
+                    // Enable download button
+                    downloadBtn.disabled = false;
+                    processBtn.textContent = `✅ Processed ${result.papers.length} papers`;
+                } else {
+                    throw new Error('Processing failed');
+                }
+
+            } catch (error) {
+                console.error('Process error:', error);
+                showStatus(`❌ Processing error: ${error.message}`, 'error');
+                processBtn.disabled = false;
+                processBtn.textContent = '⚡ Process Pipeline';
+            }
+        }
+
+        function displayPapers(papers) {
+            let html = `<h4>📊 Fetched ${papers.length} papers:</h4>`;
+
+            papers.slice(0, 5).forEach((paper, index) => {
+                html += `
+                    <div class="paper-item">
+                        <div class="paper-title">${index + 1}. ${paper.title}</div>
+                        <div class="paper-meta">Authors: ${paper.authors}</div>
+                        <div class="paper-meta">Journal: ${paper.journal}</div>
+                        <div class="paper-meta">Year: ${paper.year}</div>
+                        ${paper.doi ? `<div class="paper-meta">DOI: ${paper.doi}</div>` : ''}
+                    </div>
+                `;
+            });
+
+            if (papers.length > 5) {
+                html += `<div class="paper-meta" style="text-align: center; margin-top: 15px;">... and ${papers.length - 5} more papers</div>`;
+            }
+
+            showResults(html);
+        }
+
+        function displayProcessedPapers(papers) {
+            let html = `<h4>✅ Processed ${papers.length} papers with abstracts and categories:</h4>`;
+
+            const samplePaper = papers[0];
+            if (samplePaper) {
+                html += `
+                    <div class="paper-item">
+                        <div class="paper-title">Sample Processed Paper:</div>
+                        <div class="paper-meta"><strong>Title:</strong> ${samplePaper.title}</div>
+                        <div class="paper-meta"><strong>Abstract Source:</strong> ${samplePaper.abstract_source || 'N/A'}</div>
+                        <div class="paper-meta"><strong>Category:</strong> ${samplePaper.original_category || 'N/A'}</div>
+                        <div class="paper-meta"><strong>Keywords:</strong> ${samplePaper.original_keywords || 'N/A'}</div>
+                        <div class="paper-meta"><strong>Abstract:</strong> ${(samplePaper.abstract || 'N/A').substring(0, 200)}...</div>
+                    </div>
+                `;
+            }
+
+            showResults(html);
+        }
+
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('statusMessage');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+            statusEl.style.display = 'block';
+
+            console.log(`Status: ${message}`);
+        }
+
+        function showResults(content, isLoading = false) {
+            const container = document.getElementById('resultsContainer');
+            const contentEl = document.getElementById('resultsContent');
+
+            if (isLoading) {
+                contentEl.innerHTML = `<div class="loading">${content}</div>`;
+            } else {
+                contentEl.innerHTML = content;
+            }
+
+            container.style.display = 'block';
+        }
+
+        function downloadCSV() {
+            const papers = processedPapers.length > 0 ? processedPapers : fetchedPapers;
+
+            if (papers.length === 0) {
+                alert('No papers to download');
+                return;
+            }
+
+            const headers = [
+                'paper_id', 'title', 'abstract', 'authors', 'journal', 'year',
+                'volume', 'issue', 'pages', 'publisher', 'doi', 'url', 'type',
+                'abstract_source', 'abstract_confidence', 'original_category',
+                'original_keywords', 'contributions', 'limitations'
+            ];
+
+            let csvContent = headers.join(',') + '\n';
+
+            papers.forEach(paper => {
+                const row = headers.map(header => {
+                    const value = paper[header] || '';
+                    const escapedValue = value.toString().replace(/"/g, '""');
+                    return value.includes(',') || value.includes('"') || value.includes('\n')
+                        ? `"${escapedValue}"`
+                        : escapedValue;
+                });
+                csvContent += row.join(',') + '\n';
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+
+            const timestamp = new Date().toISOString().slice(0, 19).replace(/[-:]/g, '').replace('T', '_');
+            link.setAttribute('download', `research_papers_${timestamp}.csv`);
+            link.style.visibility = 'hidden';
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            showStatus('📥 CSV file downloaded successfully!', 'success');
+        }
+
+        // Show initial status
+        showStatus('Ready to fetch papers! Fill in the form and click "🚀 Fetch Papers"', 'info');
+    </script>
+</body>
+</html>
