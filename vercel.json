@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "simple_pipeline_api.py",
+      "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb"
@@ -12,11 +12,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "simple_pipeline_api.py"
+      "dest": "api/index.py"
     },
     {
       "src": "/(.*)",
-      "dest": "simple_pipeline_api.py"
+      "dest": "api/index.py"
     }
   ],
   "env": {
