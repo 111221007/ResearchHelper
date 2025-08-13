@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "simple_pipeline_api.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
     }
   ],
   "routes": [
@@ -13,15 +16,16 @@
     },
     {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "simple_pipeline_api.py"
     }
   ],
   "env": {
-    "PYTHONPATH": "./"
+    "PYTHONPATH": "./",
+    "FLASK_ENV": "production"
   },
   "functions": {
     "simple_pipeline_api.py": {
-      "maxDuration": 300
+      "maxDuration": 60
     }
   }
 }
