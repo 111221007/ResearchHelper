@@ -22,10 +22,5 @@
   "env": {
     "PYTHONPATH": "./",
     "FLASK_ENV": "production"
-  },
-  "functions": {
-    "simple_pipeline_api.py": {
-      "maxDuration": 60
-    }
   }
 }
