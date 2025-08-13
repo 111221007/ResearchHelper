@@ -24,7 +24,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/custom/1/crossref_papers_ai_20250810_101702.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/custom/1/list_of_papers_ai_20250810_151256.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/custom/1/list_of_papers_ai_20250812_233400.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -39,6 +53,62 @@
           </value>
         </entry>
         <entry key="/results/metrics_summary_consolidated.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/new/crossref_papers_serverless_20250810_090710.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/new/crossref_papers_serverless_20250810_091030.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/new/crossref_papers_serverless_20250810_091725.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/new/crossref_papers_serverless_20250810_091829.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/pdf/enhanced_papers_with_pdfs_20250813_084504.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/pdf/enhanced_papers_with_pdfs_20250813_091410.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/pdf/enhanced_papers_with_pdfs_20250813_091453.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/pdf/enhanced_papers_with_pdfs_20250813_091859.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -81,6 +151,20 @@
           </value>
         </entry>
         <entry key="/results/titles_matched.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/scripts/results/new/crossref_papers_ai_20250810_141659.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/scripts/results/new/crossref_papers_ai_20250810_141659_with_abstracts_20250810_142051.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
